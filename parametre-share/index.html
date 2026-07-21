@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Parametre — Profil Paylaşımı</title>
+<!-- Smart App Banner: iOS Safari'de "AÇ / GÖSTER" bandı; app varsa açar, yoksa App Store.
+     app-argument olarak paylaşım linkini (token dahil) geçiriyoruz. -->
+<meta name="apple-itunes-app" content="app-id=6772718295">
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font: -apple-system-body, system-ui, sans-serif;
+    background: #F2F2F7; color: #1C1C1E;
+    display: flex; min-height: 100dvh; align-items: center; justify-content: center;
+    padding: 24px; text-align: center;
+  }
+  @media (prefers-color-scheme: dark) { body { background: #000; color: #fff; } }
+  .card {
+    max-width: 380px; width: 100%;
+    background: #fff; border-radius: 22px; padding: 32px 24px;
+    box-shadow: 0 10px 40px rgba(0,0,0,.08);
+  }
+  @media (prefers-color-scheme: dark) { .card { background: #1C1C1E; box-shadow: none; } }
+  .logo { width: 88px; height: 88px; border-radius: 20px; margin: 0 auto 20px; display:block; }
+  h1 { font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+  p  { font-size: 15px; line-height: 1.5; color: #6b6b70; margin-bottom: 24px; }
+  @media (prefers-color-scheme: dark) { p { color: #98989e; } }
+  .btn {
+    display: block; width: 100%; padding: 15px; border-radius: 14px;
+    background: #10B981; color: #fff; font-size: 17px; font-weight: 600;
+    text-decoration: none; margin-bottom: 12px;
+  }
+  .btn.secondary { background: transparent; color: #10B981; font-weight: 500; }
+  .hint { font-size: 13px; color: #8e8e93; margin-top: 16px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <img class="logo" src="icon.png" alt="Parametre" onerror="this.style.display='none'">
+    <h1>Bir profil seninle paylaşıldı</h1>
+    <p>Bu bağlantı, <strong>Parametre</strong> uygulamasında sana <strong>salt-okunur</strong> paylaşılan bir finansal profili açar.</p>
+
+    <!-- App yüklüyse: universal link zaten app'i açar; bu sayfa görünmez.
+         Görünüyorsa app yok demektir → App Store. -->
+    <a class="btn" href="https://apps.apple.com/app/id6772718295">App Store'dan İndir</a>
+    <a class="btn secondary" id="openApp" href="#">Uygulamada Aç</a>
+
+    <p class="hint">Uygulamayı kurduktan sonra bu bağlantıya tekrar dokunarak profili ekleyebilirsin.</p>
+  </div>
+
+  <script>
+    // Paylaşım token'ı + anahtarı URL'de: ?t=<token>#k=<key>
+    // Anahtar fragment'te olduğu için sunucuya GİTMEZ (E2E korunur).
+    // "Uygulamada Aç" custom scheme fallback (universal link tetiklenmezse).
+    (function () {
+      var qs = location.search;             // ?t=...
+      var frag = location.hash;             // #k=...
+      var deep = "parametre://share" + qs + frag;
+      document.getElementById("openApp").href = deep;
+
+      // Smart App Banner "Aç"a token+key'i taşı: app-argument = tam link.
+      // (Universal link birincil yol; bu, banner üzerinden açılırsa yedek.)
+      var meta = document.querySelector('meta[name="apple-itunes-app"]');
+      if (meta) meta.setAttribute(
+        "content", "app-id=6772718295, app-argument=" + location.href
+      );
+    })();
+  </script>
+</body>
+</html>
