@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enflasyon Getirini Nasıl Eritir? Reel Getiri Nedir ve Nasıl Hesaplanır?</title>
+<meta name="description" content="Nominal getiri ile reel getiri arasındaki fark nedir? Enflasyonun paranın alım gücünü nasıl azalttığını örneklerle ve formülle anlatıyoruz. TÜFE ile reel kazancını hesapla.">
+<meta name="keywords" content="reel getiri, enflasyon, nominal getiri, TÜFE, alım gücü, reel faiz, getiri hesaplama">
+<link rel="canonical" href="https://dilek0402.github.io/blog/enflasyon-reel-getiri.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Enflasyon Getirini Nasıl Eritir? Reel Getiri Nedir?">
+<meta property="og:locale" content="tr_TR">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"Article",
+  "headline":"Enflasyon Getirini Nasıl Eritir? Reel Getiri Nedir ve Nasıl Hesaplanır?",
+  "inLanguage":"tr",
+  "about":["enflasyon","reel getiri","kişisel finans"],
+  "publisher":{"@type":"Organization","name":"Parametre"}
+}
+</script>
+<style>
+  :root{ --bg:#0B0F14; --card:#141A22; --txt:#F2F5F8; --sub:#9AA7B4; --accent:#10B981; --line:#1E2833; color-scheme: dark light; }
+  @media (prefers-color-scheme: light){ :root{ --bg:#F6F8FA; --card:#FFF; --txt:#0B1620; --sub:#5A6B7B; --line:#E3E9EF; } }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{ font:17px/1.75 -apple-system,system-ui,sans-serif; background:var(--bg); color:var(--txt); }
+  .wrap{ max-width:720px; margin:0 auto; padding:36px 20px 60px; }
+  a.back{ color:var(--sub); text-decoration:none; font-size:14px; }
+  h1{ font-size:clamp(26px,5vw,36px); font-weight:800; line-height:1.25; margin:18px 0 10px; letter-spacing:-.01em; }
+  .meta{ color:var(--accent); font-size:13px; font-weight:600; margin-bottom:28px; }
+  h2{ font-size:22px; margin:34px 0 10px; }
+  p{ color:var(--txt); margin-bottom:16px; }
+  .box{ background:var(--card); border:1px solid var(--line); border-left:3px solid var(--accent); border-radius:12px; padding:18px 20px; margin:22px 0; }
+  .box code{ font-size:15px; }
+  strong{ color:var(--txt); }
+  .cta{ display:block; background:var(--accent); color:#031A12; font-weight:700; text-align:center; padding:16px; border-radius:14px; text-decoration:none; margin:36px 0 10px; }
+  footer{ color:var(--sub); font-size:13px; border-top:1px solid var(--line); margin-top:40px; padding-top:20px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="./">← Blog</a>
+  <h1>Enflasyon getirini nasıl eritir? Reel getiri nedir ve nasıl hesaplanır?</h1>
+  <div class="meta">Finans 101 · 5 dk okuma</div>
+
+  <p>Bir yatırımın "kaç para kazandırdığı" ile "alım gücünü ne kadar artırdığı" çoğu zaman aynı şey değildir. Aradaki farkı belirleyen şey <strong>enflasyondur</strong>. Bu yazıda <strong>nominal getiri</strong> ile <strong>reel getiri</strong> arasındaki farkı, neden önemli olduğunu ve nasıl hesaplandığını basit örneklerle anlatıyoruz.</p>
+
+  <h2>Nominal getiri nedir?</h2>
+  <p>Nominal getiri, paranızın <em>rakamsal</em> olarak ne kadar arttığıdır. 100.000 TL yatırdınız, yıl sonunda 160.000 TL oldu → nominal getiriniz <strong>%60</strong>'tır. Ekstredeki, hesaptaki gördüğünüz rakam budur.</p>
+
+  <h2>Reel getiri nedir?</h2>
+  <p>Reel getiri, enflasyondan <em>arındırılmış</em> gerçek kazancınızdır — yani <strong>alım gücünüzün</strong> ne kadar arttığı. Aynı dönemde fiyatlar da arttıysa, cebinizdeki fazla para o kadar "değerli" olmayabilir.</p>
+
+  <div class="box">
+    <strong>Formül (Fisher yaklaşımı):</strong><br>
+    <code>Reel getiri = (1 + nominal getiri) ÷ (1 + enflasyon) − 1</code>
+  </div>
+
+  <h2>Örnekle hesaplayalım</h2>
+  <p>Nominal getiri <strong>%60</strong>, aynı dönem TÜFE enflasyonu <strong>%50</strong> olsun:</p>
+  <div class="box">
+    Reel getiri = (1 + 0,60) ÷ (1 + 0,50) − 1<br>
+    = 1,60 ÷ 1,50 − 1 = <strong>%6,7</strong>
+  </div>
+  <p>Yani "kağıt üstünde %60 kazandınız" ama enflasyondan sonra alım gücünüz sadece <strong>%6,7</strong> arttı. Eğer enflasyon %65 olsaydı reel getiriniz <strong>eksiye</strong> geçerdi — para kazanmış görünüp aslında fakirleşmiş olurdunuz.</p>
+
+  <h2>Neden kaba çıkarma (%60 − %50 = %10) yanlış?</h2>
+  <p>Basitçe nominal'den enflasyonu çıkarmak yaklaşık bir sonuç verir ama yüksek enflasyonda ciddi hata yapar. Doğru yöntem yukarıdaki <strong>bölme (Fisher)</strong> formülüdür; çünkü hem anaparanız hem de kazancınız enflasyona maruz kalır.</p>
+
+  <h2>Hangi enflasyonu kullanmalı?</h2>
+  <p>Kişisel harcamalar için <strong>TÜFE</strong> (Tüketici Fiyat Endeksi) en yaygın referanstır. Türkiye'de TÜİK aylık açıklar. Doğru hesap için "ortalama bir oran" yerine <strong>dönemin gerçek endeks değerlerini</strong> kullanmak gerekir.</p>
+
+  <a class="cta" href="https://apps.apple.com/tr/app/id6772718295">Parametre ile reel getirini otomatik hesapla →</a>
+  <p style="color:var(--sub);font-size:14.5px">Parametre, varlıklarının reel getirisini resmi TÜFE/ÜFE endeksleriyle otomatik hesaplar; her yatırımın enflasyondan sonra gerçekte ne kazandırdığını gösterir.</p>
+
+  <footer>Bu içerik genel bilgilendirme amaçlıdır, yatırım tavsiyesi değildir.</footer>
+</div>
+</body>
+</html>

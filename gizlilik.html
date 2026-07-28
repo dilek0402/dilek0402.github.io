@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parametre — Gizlilik Politikası ve KVKK Aydınlatma Metni</title>
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --card: #ffffff;
+    --text: #1a1d21;
+    --text-secondary: #41464d;
+    --text-muted: #6b7280;
+    --accent: #2563eb;
+    --border: #e3e6ea;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 24px 18px 64px;
+  }
+  header.page-header {
+    text-align: center;
+    padding: 32px 16px 24px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 24px;
+  }
+  header.page-header h1 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin: 0 0 8px;
+    color: var(--text);
+  }
+  header.page-header .updated {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin: 0;
+  }
+  .lang-nav {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  .lang-nav a {
+    display: inline-block;
+    margin: 0 6px;
+    padding: 6px 16px;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  .lang-nav a:hover { background: var(--accent); color: #fff; }
+  section.policy {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-bottom: 16px;
+  }
+  h2 {
+    font-size: 1.25rem;
+    margin: 8px 0 14px;
+    color: var(--text);
+  }
+  h3 {
+    font-size: 1.1rem;
+    margin: 28px 0 12px;
+    color: var(--text);
+  }
+  p { margin: 0 0 14px; color: var(--text-secondary); }
+  ul { margin: 0 0 14px; padding-left: 22px; color: var(--text-secondary); }
+  li { margin-bottom: 6px; }
+  ul ul { margin-top: 6px; margin-bottom: 6px; }
+  strong { color: var(--text); font-weight: 650; }
+  a { color: var(--accent); word-break: break-word; }
+  hr.lang-divider {
+    border: none;
+    border-top: 2px solid var(--border);
+    margin: 48px 0 32px;
+  }
+  footer.disclaimer {
+    margin-top: 36px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-style: italic;
+    font-size: 0.95rem;
+  }
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    .wrap { padding: 16px 12px 48px; }
+    section.policy { padding: 16px 16px; }
+    header.page-header h1 { font-size: 1.3rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="page-header">
+    <h1>Parametre — Gizlilik Politikası ve KVKK Aydınlatma Metni</h1>
+    <p class="updated">Son güncelleme / Last updated: 25 Mayıs 2026 / May 25, 2026</p>
+  </header>
+
+  <nav class="lang-nav">
+    <a href="#tr">Türkçe</a>
+    <a href="#en">English</a>
+  </nav>
+
+  <!-- ===================== TÜRKÇE ===================== -->
+  <div id="tr">
+
+    <section class="policy">
+      <h2>Özet (Önemli)</h2>
+      <p>Parametre yerel-öncelikli bir kişisel finans uygulamasıdır. Finansal verileriniz <strong>sadece kendi cihazınızda</strong> saklanır ve hiçbir zaman uygulama geliştiricisinin sunucularına gönderilmez. Hiçbir kullanıcı hesabı, e-posta kaydı veya online profil oluşturulmaz.</p>
+      <p><strong>Tek dış iletişim</strong>: piyasa fiyatlarını çekmek için resmi/ücretsiz kamuya açık API'lere (TCMB, CoinGecko, TEFAS, Binance, Stooq) yalnızca sembol kodu (örn. "USD", "BTC") gönderilir. Hiçbir kullanıcı kimliği veya finansal tutar bu API'lere iletilmez. Hisse senedi ve altın fiyatları manuel olarak kullanıcı tarafından girilir.</p>
+      <p><strong>Çökme raporu ve kullanım istatistikleri</strong>: Uygulama Google Firebase'in iki servisini kullanır:</p>
+      <ul>
+        <li><strong>Firebase Crashlytics</strong> — beklenmedik kapanmada anonim çökme yığını (stack trace, cihaz modeli, iOS sürümü, app sürümü) Google sunucularına gönderilir. <strong>Kullanıcı kimliği veya finansal veri içermez.</strong></li>
+        <li><strong>Firebase Analytics</strong> — uygulamanın hangi ekranlarının kullanıldığı, oturum süreleri, ekran geçiş örüntüleri gibi <strong>anonim kullanım istatistikleri</strong> toplanır. Toplanan veri tek bir kullanıcıyı tanımlayamaz; agregat (toplu) raporlama içindir. Finansal tutarlar, varlık adları veya kişisel bilgiler <strong>asla</strong> analytics'e dahil edilmez.</li>
+      </ul>
+      <p><strong>Free tier vs Premium</strong>: Free tier kullanıcılarına Google AdMob aracılığıyla reklam gösterilir (ATT izniyle IDFA toplanabilir). Premium üyelerde reklam yoktur, AdMob ile veri paylaşılmaz. Crashlytics ve Analytics her iki tier için de aktiftir. Detaylar Bölüm 5 ve 5.5'tedir.</p>
+    </section>
+
+    <section class="policy">
+      <h2>1. Veri Sorumlusunun Kimliği</h2>
+      <p>6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") uyarınca veri sorumlusu sıfatıyla bilgilendirme:</p>
+      <ul>
+        <li>Veri Sorumlusu: Dilek Eminoglu (gerçek kişi)</li>
+        <li>İletişim: <a href="mailto:contact.parametreapp@gmail.com">contact.parametreapp@gmail.com</a> — ayrıca uygulama içinde Ayarlar &gt; Destek bölümünden</li>
+      </ul>
+      <p>Uygulama yalnızca bireysel kullanım için tasarlanmıştır. Ticari veri işleme, profil oluşturma veya pazarlama amacı içermez.</p>
+    </section>
+
+    <section class="policy">
+      <h2>2. İşlenen Kişisel Veri Kategorileri</h2>
+      <p><strong>Sizin cihazınızda saklanan, geliştiriciye gönderilmeyen veriler:</strong></p>
+      <ul>
+        <li>Profil bilgileri: ad, avatar (cihaz-içi)</li>
+        <li>Finansal kayıtlar: gelir, gider, varlık, borç, alacak, bütçe, hedef</li>
+        <li>Tercihler: dil, tema, bildirim ayarları</li>
+      </ul>
+      <p><strong>Yalnızca Free tier kullanıcılar için (AdMob aracılığıyla)</strong>:</p>
+      <ul>
+        <li>Cihaz tanımlayıcı (IDFA) — ATT izniyle</li>
+        <li>Reklam etkileşimi (görüntülenme, tıklama)</li>
+        <li>Cihaz tipi ve dil (reklam targeting için)</li>
+      </ul>
+      <p><strong>Premium üyeler için işlenmeyen veriler</strong> (Free tier için de geçerli olanlar):</p>
+      <ul>
+        <li>Ad, soyad, T.C. kimlik numarası (uygulama bu bilgileri istemez)</li>
+        <li>E-posta, telefon numarası (hesap oluşturma yok)</li>
+        <li>Konum (kullanılmaz)</li>
+        <li>Kişiler, fotoğraflar, takvim (sadece kullanıcı isteğiyle ihracat için kullanılır)</li>
+        <li>IP adresi (uygulama tarafından kaydedilmez)</li>
+        <li>Cihaz parmak izi (toplanmaz)</li>
+      </ul>
+      <p><strong>Premium üyelerde</strong> IDFA toplanmaz, ATT izni istenmez, AdMob ile veri paylaşılmaz.</p>
+    </section>
+
+    <section class="policy">
+      <h2>3. Verilerin İşlenme Amacı</h2>
+      <p>Cihazınızdaki finansal verileriniz <strong>yalnızca aşağıdaki amaçlar için</strong> işlenir:</p>
+      <ul>
+        <li>Size ait gelir, gider, varlık ve borçların hesaplanması, raporlanması</li>
+        <li>İstatistiksel görselleştirme (grafik, trend, yıllık özet)</li>
+        <li>Bildirim oluşturma (yaklaşan ödeme hatırlatması)</li>
+        <li>İsteğe bağlı yıllık vergi raporu PDF üretimi (TR mevzuatına uygun)</li>
+        <li>Cihaz-içi arama (Spotlight)</li>
+      </ul>
+      <p>Bu işleme tamamen <strong>cihazınızda gerçekleşir</strong>. Veriler yerel veritabanından çıkmaz.</p>
+    </section>
+
+    <section class="policy">
+      <h2>4. Verilerin Saklanması ve Güvenliği</h2>
+      <p><strong>Cihazda şifreleme</strong>:</p>
+      <ul>
+        <li>Tüm finansal veriler iOS Data Protection (NSFileProtectionComplete) ile <strong>donanım destekli AES-256</strong> algoritması kullanılarak şifrelenir.</li>
+        <li>Cihazınız kilitliyken veri dosyasına ne uygulama, ne işletim sistemi, ne de geliştirici erişebilir.</li>
+        <li>Apple Secure Enclave + Effaceable Storage donanımıyla anahtar yönetimi yapılır.</li>
+      </ul>
+      <p><strong>Ek güvenlik katmanları (opsiyonel)</strong>:</p>
+      <ul>
+        <li>PIN koruması: 4-6 haneli kişisel kod</li>
+        <li>Face ID / Touch ID biyometrik kilit</li>
+        <li>Otomatik kilit (uygulama arka plana alındığında)</li>
+        <li>Uygulama açılışında biyometrik doğrulama</li>
+      </ul>
+      <p><strong>Saklama süresi</strong>:</p>
+      <ul>
+        <li>Veriler siz silmediğiniz sürece cihazınızda saklı kalır.</li>
+        <li>Uygulamayı sildiğinizde tüm veriler iOS tarafından otomatik olarak silinir.</li>
+        <li>"Tüm Verileri Sil" özelliği (Ayarlar &gt; Veri) ile anında tamamen silebilirsiniz.</li>
+      </ul>
+    </section>
+
+    <section class="policy">
+      <h2>5. Üçüncü Taraf Servisler</h2>
+      <p>Aşağıdaki kamuya açık API'ler <strong>yalnızca piyasa fiyat verisi</strong> almak için kullanılır. Hiçbirine kullanıcıya özgü veri (ad, kayıt, finansal tutar) gönderilmez:</p>
+      <ul>
+        <li><strong>TCMB</strong> (www.tcmb.gov.tr): resmi günlük döviz kurları</li>
+        <li><strong>CoinGecko</strong> (api.coingecko.com): kripto fiyatları</li>
+        <li><strong>TEFAS</strong> (www.tefas.gov.tr): Türkiye yatırım fonu fiyatları</li>
+        <li><strong>Binance</strong> (api.binance.com): kripto yedek fiyat kaynağı</li>
+        <li><strong>Stooq</strong> (stooq.com): dünya endeksleri (BIST 100, NASDAQ, S&amp;P 500) için tarihsel kapanış verisi</li>
+      </ul>
+      <p>Bu servislere yalnızca sembol kodu (örn. "USD", "BTC", "^xu100") gönderilir. <strong>Hisse senedi ve altın için otomatik fiyat servisi yoktur</strong> — kullanıcı birim fiyatı manuel olarak girer.</p>
+      <p><strong>Google AdMob</strong> (Free tier kullanıcıları için):</p>
+      <ul>
+        <li>Free tier kullanıcılarına banner ve native reklamlar gösterilir</li>
+        <li>AdMob reklam kişiselleştirmesi için cihaz tanımlayıcı (IDFA) toplar — yalnızca kullanıcı App Tracking Transparency promptunda izin verirse</li>
+        <li>İzin verilmezse non-personalized (genel) reklamlar gösterilir</li>
+        <li>Premium üyeler için reklam gösterilmez ve AdMob ile veri paylaşılmaz</li>
+      </ul>
+      <p><strong>Google Firebase</strong> (tüm kullanıcılar için — Free + Premium):</p>
+      <ul>
+        <li><strong>Firebase Crashlytics</strong>: Uygulama beklenmedik şekilde kapanırsa anonim çökme raporu (stack trace + cihaz modeli + iOS sürümü + app sürümü) Google sunucularına gönderilir. Kullanıcı kimliği veya finansal veri içermez.</li>
+        <li><strong>Firebase Analytics</strong>: Uygulamanın hangi özelliklerinin nasıl kullanıldığına dair <strong>anonim kullanım istatistikleri</strong> toplanır. Toplanan tipik veriler:
+          <ul>
+            <li>Hangi ekranlar açıldı (örn. "Dashboard görüntülendi", "Asset eklendi") — finansal tutar veya isim içermez</li>
+            <li>Oturum süresi ve uygulama açılış sayısı</li>
+            <li>Cihaz tipi (iPhone 17 Pro Max), iOS sürümü, dil ayarı</li>
+            <li>Kabaca ülke bilgisi (TR/EU/US — IP adresinden, kayıt edilmez)</li>
+          </ul>
+        </li>
+      </ul>
+      <p>ATT izni reddedildiğinde IDFA toplanmaz; veriler tamamen agregat (toplu) hâle gelir. Toplanan veri <strong>tek bir kullanıcıyı tanımlamaz</strong>, kullanıcı silinemez bir kimliğe bağlanmaz. Geliştirici Firebase Analytics dashboard'unda yalnızca toplam sayıları görür ("Bu hafta 1.234 kullanıcı dashboard'u açtı" gibi).</p>
+      <p>Firebase verisi Google'ın Avrupa veri merkezlerinde işlenir (GDPR uyumlu). Detaylı bilgi: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></p>
+      <p><strong>Diğer servisler yoktur.</strong> Uygulama Sentry, Facebook SDK, Adjust, Mixpanel gibi servisleri kullanmaz. Push bildirim (Firebase Cloud Messaging) altyapısı v1.0'da aktif değil — sonraki sürümde eklenebilir; eklendiğinde Privacy Policy ayrıca güncellenir.</p>
+      <p>iOS sistemi çökmeleri (TestFlight/App Store Connect) yalnızca kullanıcı iOS Ayarlar &gt; Gizlilik &gt; Analiz'de "Uygulama Geliştiricileri ile Paylaş" iznini açtıysa Apple tarafından anonim olarak geliştiriciye iletilir.</p>
+    </section>
+
+    <section class="policy">
+      <h2>5.5 Reklam Ortakları (KVKK Md. 9 — Yurt Dışına Aktarım)</h2>
+      <p>Free tier kullanıcılarına gösterilen reklamlar Google Ireland Limited (AdMob) aracılığıyla sunulur. Google'ın gizlilik politikası: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+      <p><strong>Aktarılan veri kategorisi</strong>:</p>
+      <ul>
+        <li>Reklam kimliği (IDFA) — ATT izniyle, kişisel veri niteliğinde</li>
+        <li>Cihaz bilgileri (model, iOS sürümü)</li>
+        <li>Yaklaşık konum (IP'den çıkarılan ülke/şehir bazında)</li>
+        <li>Reklam etkileşim verisi (görüntülenme, tıklama)</li>
+      </ul>
+      <p><strong>Aktarım amacı</strong>: Reklam gösterimi, reklam etkinlik ölçümü, dolandırıcılık önleme.</p>
+      <p><strong>Aktarım kapsamı</strong>: Google'ın Avrupa veri merkezi (Dublin, İrlanda) öncelikli; ABD'ye de aktarım olabilir (Standard Contractual Clauses ile).</p>
+      <p><strong>GDPR Onay Yönetimi (Google UMP)</strong>: Avrupa Ekonomik Alanı (EEA) ve Birleşik Krallık kullanıcılarına ilk açılışta GDPR uyumlu Google UMP (User Messaging Platform / Funding Choices) onay formu gösterilir. Bu form ile kişiselleştirilmiş veya kişiselleştirilmemiş reklam tercihinizi belirleyebilirsiniz; tercihiniz IAB Transparency &amp; Consent Framework v2 standardında saklanır ve istediğiniz zaman uygulama içinde değiştirilebilir. EEA/UK dışı kullanıcılara bu form gösterilmez.</p>
+      <p>Premium üyeliğe geçerek bu aktarımı tamamen durdurabilirsiniz.</p>
+    </section>
+
+    <section class="policy">
+      <h2>6. Veri Aktarımı</h2>
+      <p><strong>Yurt dışına aktarım</strong>: Kullanıcının kişisel verisi geliştiriciye veya başka bir sunucuya aktarılmaz. Yalnızca piyasa fiyat API'lerine <strong>sembol kodu</strong> (örn. "USD", "BTC") gönderilir; bu sembol kodları kişisel veri niteliği taşımaz.</p>
+      <p><strong>Yetkililere aktarım</strong>: KVKK madde 8 uyarınca, yasal olarak zorunlu kılınmadıkça verileriniz hiçbir kuruma açılmaz. Verileriniz teknik olarak cihazınızda olduğu için, bir talep gelmesi durumunda doğrudan size yöneltilir.</p>
+      <p><strong>Veri satışı/paylaşımı</strong>: Finansal verileriniz (gelir, gider, varlık, borç, kayıt detayları) hiçbir koşulda satılmaz, kiraya verilmez veya üçüncü taraflara <em>bizim tarafımızdan</em> paylaşılmaz. Free tier kullanıcılarında AdMob ile yalnızca reklam kimliği (IDFA — ATT izniyle), reklam etkileşim verisi ve cihaz/dil bilgisi paylaşılır (detay için Bölüm 5 ve 5.5). Premium üyelikte reklam gösterilmez, hiçbir veri AdMob ile paylaşılmaz.</p>
+
+      <p>İsteğe bağlı <strong>iCloud Yedekleme</strong> özelliğini açarsanız, tüm verilerinizin şifreli bir yedeği yalnızca <strong>size ait özel (private) iCloud</strong> alanına yüklenir; kimseyle paylaşılmaz.</p>
+    </section>
+
+    <section class="policy">
+      <h2>7. KVKK Madde 11 — Haklarınız</h2>
+      <p>KVKK madde 11 ve GDPR madde 15-22 uyarınca aşağıdaki haklara sahipsiniz:</p>
+      <p><strong>a) Bilgi alma hakkı</strong>: Bu doküman bilgilendirme amacını karşılar.</p>
+      <p><strong>b) Erişim hakkı</strong>: Verileriniz tamamen cihazınızda olduğu için, uygulama ekranlarından doğrudan erişebilirsiniz. Ayarlar &gt; Veri &gt; Yedek Çıkar ile JSON formatında tam kopyasını alabilirsiniz.</p>
+      <p><strong>c) Düzeltme hakkı</strong>: Her kaydı uygulama içinde düzenleyebilirsiniz.</p>
+      <p><strong>d) Silme hakkı (unutulma hakkı)</strong>: Ayarlar &gt; Veri &gt; Tüm Verileri Sil ile anında ve geri dönülemez biçimde tüm verileriniz silinir. Uygulamayı kaldırmak da aynı sonucu üretir.</p>
+      <p><strong>e) İşlemeyi sınırlama hakkı</strong>: Premium üyeliğe geçerek reklam veri toplamasını tamamen durdurabilirsiniz. Free tier'da iOS Ayarlar &gt; Gizlilik &gt; İzleme'den "İzleme İzin Vermeyi Tüm Uygulamalardan İste"yi seçerek IDFA'yı engelleyebilirsiniz. Uygulama içi çökme raporu/analitik gönderimi yoktur — sınırlanacak işleme yok. iOS sisteminin Apple'a gönderdiği anonim analitik kayıtlarını iOS Ayarlar &gt; Gizlilik &gt; Analiz üzerinden kapatabilirsiniz.</p>
+      <p><strong>f) Veri taşınabilirliği hakkı</strong>: Ayarlar &gt; Yedek Çıkar ile verileriniz JSON formatında dışa aktarılabilir; başka bir uygulamaya taşıma serbesttir.</p>
+      <p><strong>g) İtiraz hakkı</strong>: Uygulama içinde otomatik karar verme veya kullanıcı profili oluşturma yapılmaz. Free tier'da gösterilen AdMob reklamları için, ATT promptunda izin vermeyerek kişiselleştirilmiş reklam hedeflemesine itiraz edebilirsiniz. Premium üyelikte hiç reklam gösterilmez.</p>
+      <p><strong>h) Şikayet hakkı</strong>: KVKK Kurumu'na (KVKK.gov.tr) başvurabilirsiniz.</p>
+    </section>
+
+    <section class="policy">
+      <h2>8. Çerez ve İzleme</h2>
+      <p>Premium üyeler için izleme yoktur. Free tier kullanıcılarına AdMob reklamları gösterilir; bunlar kullanıcı izniyle (ATT promptu) IDFA toplayabilir. ATT izni verilmezse non-personalized reklamlar gösterilir.</p>
+      <p><strong>Premium tier</strong>:</p>
+      <ul>
+        <li>Çerez (cookie) yok</li>
+        <li>Reklam kimliği (IDFA) toplanmaz</li>
+        <li>Pixel veya beacon yok</li>
+        <li>Üçüncü taraf analitik (Google Analytics, Facebook Pixel vb.) yok</li>
+        <li>ATT (App Tracking Transparency) izni istenmez</li>
+      </ul>
+      <p><strong>Free tier</strong>:</p>
+      <ul>
+        <li>AdMob banner ve native reklamlar gösterilir</li>
+        <li>ATT izni varsa IDFA ile kişiselleştirilmiş reklam</li>
+        <li>ATT izni yoksa non-personalized reklam</li>
+        <li>Üçüncü taraf analitik yok (yalnızca AdMob)</li>
+      </ul>
+      <p><strong>App Store Privacy Labels</strong>:</p>
+      <ul>
+        <li>Premium tier: "Data Not Collected"</li>
+        <li>Free tier: "Identifiers (IDFA), Usage Data" — Tracking: YES (ATT izni ile)</li>
+      </ul>
+    </section>
+
+    <section class="policy">
+      <h2>9. Çocukların Verisi</h2>
+      <p>Parametre 4+ yaş derecelidir. 13 yaşından küçük çocukların kullanması için ebeveyn veya vasi denetimi gerekir. Uygulama çocuklardan kasıtlı olarak veri toplamaz.</p>
+      <p>KVKK kapsamında çocuk verisi işlenmemektedir.</p>
+    </section>
+
+    <section class="policy">
+      <h2>10. Politika Değişiklikleri</h2>
+      <p>Bu politika güncellendiğinde:</p>
+      <ul>
+        <li>"Son güncelleme" tarihi değişir</li>
+        <li>Önemli değişikliklerde uygulama içi bir bildirim gösterilir</li>
+        <li>Geriye dönük olarak uygulanmaz</li>
+      </ul>
+      <p>Eski versiyonlar uygulamayı güncellemediğiniz sürece sizinle ilgili kuralları belirlemeye devam eder.</p>
+    </section>
+
+    <section class="policy">
+      <h2>11. İletişim</h2>
+      <p>Gizlilik, veri sorumlusu ve KVKK/GDPR haklarınızla ilgili tüm sorularınız için:</p>
+      <ul>
+        <li>E-posta: <a href="mailto:contact.parametreapp@gmail.com">contact.parametreapp@gmail.com</a></li>
+        <li>Uygulama içinde: Ayarlar &gt; Destek bölümünden hata bildirimi ve özellik isteği</li>
+      </ul>
+      <p>Veri sorumlusunun açık kimliği uygulamanın App Store Connect kaydında bulunur.</p>
+    </section>
+
+    <section class="policy">
+      <h2>12. Yürürlük</h2>
+      <p>Bu politika 25 Mayıs 2026 tarihinde yürürlüğe girmiştir. Türkiye Cumhuriyeti kanunlarına tabidir. Uyuşmazlıklarda KVKK Kurumu ve Türkiye Cumhuriyeti mahkemeleri yetkilidir.</p>
+      <p>Bu uygulama 6698 sayılı KVKK ve AB GDPR 2016/679 düzenlemelerine uyumlu olarak tasarlanmıştır.</p>
+    </section>
+
+  </div>
+
+  <hr class="lang-divider">
+
+  <!-- ===================== ENGLISH ===================== -->
+  <div id="en" lang="en">
+
+    <section class="policy">
+      <h2>Summary (Important)</h2>
+      <p>Parametre is a local-first personal finance application. Your financial data is stored <strong>only on your own device</strong> and is never sent to the developer's servers. No user account, email registration, or online profile is created.</p>
+      <p><strong>Only external communication</strong>: to fetch market prices, only symbol codes (e.g. "USD", "BTC") are sent to official/free public APIs (TCMB, CoinGecko, TEFAS, Binance, Stooq). No user identity or financial amount is ever transmitted to these APIs. Stock and gold unit prices are entered manually by the user.</p>
+      <p>This app uses <strong>Google Firebase</strong> for two services (Free + Premium users):</p>
+      <ul>
+        <li><strong>Firebase Crashlytics</strong>: Anonymous crash reports (stack trace, device model, iOS version, app version) sent to Google servers if the app unexpectedly closes. No user identity or financial data.</li>
+        <li><strong>Firebase Analytics</strong>: Anonymous usage statistics — which screens are viewed, session duration, app open count, device type, iOS version, language, approximate country (from IP, not stored). Financial amounts, asset names, or personal information are <strong>never</strong> included in analytics. If ATT is denied, no IDFA is collected and all data is aggregated; the developer only sees totals like "1,234 users opened the dashboard this week."</li>
+      </ul>
+      <p>Firebase data is processed in Google's EU data centers (GDPR-compliant). Details: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></p>
+      <p>The app does <strong>not</strong> use Sentry, Facebook SDK, Adjust, Mixpanel, or other third-party analytics. Push notification (Firebase Cloud Messaging) is not active in v1.0 — may be added in a future version; if so, this policy will be updated.</p>
+      <p>iOS system crash reports (via App Store Connect) are only forwarded by Apple anonymously if the user has enabled "Share with App Developers" in iOS Settings.</p>
+      <p><strong>Free tier vs Premium</strong>: Free tier users are shown ads via Google AdMob (IDFA may be collected with ATT permission). Premium members see no ads; no data is shared with AdMob. See Sections 5 and 5.5 for details.</p>
+    </section>
+
+    <section class="policy">
+      <h2>1. Data Controller</h2>
+      <p>Under EU GDPR and Turkish KVKK Law No. 6698, the data controller information:</p>
+      <ul>
+        <li>Data Controller: Dilek Eminoglu (natural person)</li>
+        <li>Contact: <a href="mailto:contact.parametreapp@gmail.com">contact.parametreapp@gmail.com</a> — also in-app via Settings &gt; Support</li>
+      </ul>
+      <p>The app is designed for personal use only. No commercial data processing, profiling, or marketing purpose.</p>
+    </section>
+
+    <section class="policy">
+      <h2>2. Categories of Personal Data Processed</h2>
+      <p><strong>Data stored on your device, not sent to developer:</strong></p>
+      <ul>
+        <li>Profile information: name, avatar (on-device)</li>
+        <li>Financial records: income, expense, asset, debt, receivable, budget, goal</li>
+        <li>Preferences: language, theme, notification settings</li>
+      </ul>
+      <p><strong>For Free tier users only (via AdMob):</strong></p>
+      <ul>
+        <li>Device identifier (IDFA) — with ATT permission</li>
+        <li>Ad interactions (impressions, clicks)</li>
+        <li>Device type and language (for ad targeting)</li>
+      </ul>
+      <p><strong>Data NOT processed for Premium members</strong> (also applicable to Free tier):</p>
+      <ul>
+        <li>Name, ID number (not requested by app)</li>
+        <li>Email, phone (no account creation)</li>
+        <li>Location (not used)</li>
+        <li>Contacts, photos, calendar (only for user-initiated export)</li>
+        <li>IP address (not logged by app)</li>
+        <li>Device fingerprint (not collected)</li>
+      </ul>
+      <p><strong>For Premium members</strong>, IDFA is not collected, no ATT prompt is shown, and no data is shared with AdMob.</p>
+    </section>
+
+    <section class="policy">
+      <h2>3. Purpose of Processing</h2>
+      <p>Your on-device financial data is processed <strong>only for</strong>:</p>
+      <ul>
+        <li>Calculation and reporting of your income, expense, asset, debt</li>
+        <li>Statistical visualization (charts, trends, annual summary)</li>
+        <li>Notification generation (upcoming payment reminders)</li>
+        <li>Optional annual tax report PDF (Turkish tax regulation compliant)</li>
+        <li>On-device search (Spotlight)</li>
+      </ul>
+      <p>This processing happens <strong>entirely on your device</strong>. Data does not leave the local database.</p>
+    </section>
+
+    <section class="policy">
+      <h2>4. Data Storage and Security</h2>
+      <p><strong>On-device encryption</strong>:</p>
+      <ul>
+        <li>All financial data is encrypted using iOS Data Protection (NSFileProtectionComplete) with <strong>hardware-backed AES-256</strong>.</li>
+        <li>When your device is locked, neither the app, the OS, nor the developer can access the data file.</li>
+        <li>Apple Secure Enclave + Effaceable Storage manage encryption keys.</li>
+      </ul>
+      <p><strong>Additional security layers (optional)</strong>:</p>
+      <ul>
+        <li>PIN protection: 4-6 digit personal code</li>
+        <li>Face ID / Touch ID biometric lock</li>
+        <li>Auto-lock (when app moves to background)</li>
+        <li>Biometric verification on app launch</li>
+      </ul>
+      <p><strong>Retention</strong>:</p>
+      <ul>
+        <li>Data is retained until you delete it.</li>
+        <li>Deleting the app automatically erases all data via iOS.</li>
+        <li>"Delete All Data" (Settings &gt; Data) immediately and permanently deletes everything.</li>
+      </ul>
+    </section>
+
+    <section class="policy">
+      <h2>5. Third-Party Services</h2>
+      <p>The following public APIs are used <strong>only for market price data</strong>. No user-specific information (name, record, amounts) is sent:</p>
+      <ul>
+        <li><strong>TCMB (Central Bank of Turkey)</strong>: official daily currency rates</li>
+        <li><strong>CoinGecko</strong>: cryptocurrency prices</li>
+        <li><strong>TEFAS</strong>: Turkish investment fund prices</li>
+        <li><strong>Binance</strong>: backup crypto price source</li>
+        <li><strong>Stooq</strong>: world index historical closing data (BIST 100, NASDAQ, S&amp;P 500)</li>
+      </ul>
+      <p>Only symbol codes (e.g. "USD", "BTC", "^xu100") are sent. <strong>There is no automatic price service for stocks and gold</strong> — the user enters unit prices manually.</p>
+      <p><strong>Google AdMob</strong> (for Free tier users):</p>
+      <ul>
+        <li>Free tier users are shown banner and native ads</li>
+        <li>AdMob collects the device identifier (IDFA) for ad personalization — only if the user grants permission in the App Tracking Transparency prompt</li>
+        <li>If permission is not granted, non-personalized (generic) ads are shown</li>
+        <li>No ads are shown for Premium members, and no data is shared with AdMob</li>
+      </ul>
+      <p>iOS system crashes (via TestFlight / App Store Connect) are forwarded to the developer by Apple <strong>anonymously</strong> only if the user has enabled "Share with App Developers" in iOS Settings &gt; Privacy &gt; Analytics. This mechanism is governed by Apple's privacy policy and is not controlled by the app.</p>
+    </section>
+
+    <section class="policy">
+      <h2>5.5 Advertising Partners (GDPR / KVKK — International Transfer)</h2>
+      <p>Ads shown to Free tier users are served via Google Ireland Limited (AdMob). Google's privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+      <p><strong>Categories of transferred data</strong>:</p>
+      <ul>
+        <li>Advertising identifier (IDFA) — with ATT permission, qualifies as personal data</li>
+        <li>Device information (model, iOS version)</li>
+        <li>Approximate location (country/city inferred from IP)</li>
+        <li>Ad interaction data (impressions, clicks)</li>
+      </ul>
+      <p><strong>Transfer purpose</strong>: Ad serving, ad performance measurement, fraud prevention.</p>
+      <p><strong>Transfer scope</strong>: Primarily routed via Google's European data center (Dublin, Ireland); transfer to the US may also occur (under Standard Contractual Clauses).</p>
+      <p><strong>GDPR Consent Management (Google UMP)</strong>: Users in the European Economic Area (EEA) and UK are shown a GDPR-compliant Google UMP (User Messaging Platform / Funding Choices) consent form on first launch. This allows you to choose between personalized or non-personalized advertising; your preference is stored using the IAB Transparency &amp; Consent Framework v2 standard and can be changed any time from within the app. Users outside the EEA/UK do not see this form.</p>
+      <p>You may stop this transfer entirely by upgrading to Premium.</p>
+    </section>
+
+    <section class="policy">
+      <h2>6. Data Transfer</h2>
+      <p><strong>International transfer</strong>: No personal user data is transferred to the developer or any other server. Only <strong>symbol codes</strong> (e.g. "USD", "BTC") are sent to market price APIs; these symbol codes do not constitute personal data.</p>
+      <p><strong>Transfer to authorities</strong>: Under KVKK Art. 8 and GDPR Art. 6, your data is not disclosed to any agency unless legally required. Since data is technically on your device, any request would be directed to you directly.</p>
+      <p><strong>Sale/sharing</strong>: Your financial data (income, expense, asset, debt, record details) is never sold, rented, or shared under any circumstances. For Free tier users, only the advertising identifier (IDFA — with ATT permission), ad interaction data, and device/language information are shared with AdMob (see Sections 5 and 5.5 for details). No ads are shown to Premium members and no data is shared with AdMob.</p>
+    </section>
+
+    <section class="policy">
+      <h2>7. Your Rights (GDPR Art. 15-22 / KVKK Art. 11)</h2>
+      <p>You have the following rights:</p>
+      <p><strong>a) Right to information</strong>: This document fulfills this purpose.</p>
+      <p><strong>b) Right to access</strong>: Since your data is entirely on your device, you have direct access via the app screens. Settings &gt; Data &gt; Export Backup provides a full JSON copy.</p>
+      <p><strong>c) Right to rectification</strong>: You can edit every record within the app.</p>
+      <p><strong>d) Right to erasure (right to be forgotten)</strong>: Settings &gt; Data &gt; Delete All Data instantly and irreversibly deletes all your data. Uninstalling the app has the same effect.</p>
+      <p><strong>e) Right to restriction</strong>: You may stop ad-related data collection entirely by upgrading to Premium. On the Free tier, you may block IDFA by selecting "Ask Apps Not To Track" under iOS Settings &gt; Privacy &gt; Tracking. The app sends no in-app crash reports or analytics — nothing to restrict there. To restrict the anonymous analytics iOS itself sends to Apple, use iOS Settings &gt; Privacy &gt; Analytics.</p>
+      <p><strong>f) Right to data portability</strong>: Settings &gt; Export Backup outputs data in JSON; transfer to another app is free.</p>
+      <p><strong>g) Right to object</strong>: No automated decision-making or in-app user profiling is performed. For AdMob ads shown to Free tier users, you may object to personalized ad targeting by declining permission in the ATT prompt. Premium members are shown no ads at all.</p>
+      <p><strong>h) Right to complaint</strong>: You may file a complaint with Turkey's KVKK Authority (kvkk.gov.tr) or your local EU data protection authority.</p>
+    </section>
+
+    <section class="policy">
+      <h2>8. Cookies and Tracking</h2>
+      <p>There is no tracking for Premium members. Free tier users are shown AdMob ads; these may collect IDFA with user permission (ATT prompt). If ATT permission is not granted, non-personalized ads are shown.</p>
+      <p><strong>Premium tier</strong>:</p>
+      <ul>
+        <li>No cookies</li>
+        <li>No advertising identifier (IDFA) collected</li>
+        <li>No pixels or beacons</li>
+        <li>No third-party analytics (Google Analytics, Facebook Pixel, etc.)</li>
+        <li>No ATT (App Tracking Transparency) prompts</li>
+      </ul>
+      <p><strong>Free tier</strong>:</p>
+      <ul>
+        <li>AdMob banner and native ads are shown</li>
+        <li>If ATT permission is granted, personalized ads via IDFA</li>
+        <li>If ATT permission is not granted, non-personalized ads</li>
+        <li>No third-party analytics (AdMob only)</li>
+      </ul>
+      <p><strong>App Store Privacy Labels</strong>:</p>
+      <ul>
+        <li>Premium tier: "Data Not Collected"</li>
+        <li>Free tier: "Identifiers (IDFA), Usage Data" — Tracking: YES (with ATT permission)</li>
+      </ul>
+    </section>
+
+    <section class="policy">
+      <h2>9. Children's Data</h2>
+      <p>Parametre is rated 4+. Children under 13 require parental or guardian supervision. The app does not knowingly collect data from children.</p>
+      <p>No child data is processed under KVKK or GDPR.</p>
+    </section>
+
+    <section class="policy">
+      <h2>10. Changes to This Policy</h2>
+      <p>When this policy is updated:</p>
+      <ul>
+        <li>The "Last updated" date changes</li>
+        <li>Significant changes trigger an in-app notification</li>
+        <li>Changes are not retroactive</li>
+      </ul>
+      <p>Older versions remain applicable to you until you update the app.</p>
+    </section>
+
+    <section class="policy">
+      <h2>11. Contact</h2>
+      <p>For any questions regarding privacy, the data controller, or your KVKK/GDPR rights:</p>
+      <ul>
+        <li>Email: <a href="mailto:contact.parametreapp@gmail.com">contact.parametreapp@gmail.com</a></li>
+        <li>In-app: Settings &gt; Support for bug reports and feature requests</li>
+      </ul>
+      <p>The data controller's full identity is registered in the App Store Connect record.</p>
+    </section>
+
+    <section class="policy">
+      <h2>12. Effective Date and Jurisdiction</h2>
+      <p>This policy is effective as of May 25, 2026. It is subject to the laws of the Republic of Turkey. KVKK Authority and Turkish courts have jurisdiction over disputes.</p>
+      <p>This app is designed to be compliant with Turkish KVKK Law No. 6698 and EU GDPR Regulation 2016/679.</p>
+    </section>
+
+  </div>
+
+  <footer class="disclaimer">
+    <p>Parametre yatırım, vergi veya hukuki tavsiye vermez. Tüm fiyat verileri kamu kaynaklarından alınmış olup bilgilendirme amaçlıdır. Finansal kararlarınız için lisanslı bir uzmanla görüşmenizi öneririz. Veriniz, gizliliğiniz ve cihazınızdaki kontrolünüz tamamen size aittir.</p>
+    <p>Parametre does not provide investment, tax, or legal advice. All price data is sourced from public APIs and is for informational purposes only. We recommend consulting a licensed professional for financial decisions. Your data, your privacy, and your control on your device belong entirely to you.</p>
+  </footer>
+
+</div>
+</body>
+</html>
