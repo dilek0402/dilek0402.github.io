@@ -1,0 +1,37 @@
+# Parametre
+
+> Parametre, Türkiye'deki bireysel kullanıcılar için tasarlanmış bir kişisel finans ve bütçe yönetimi uygulamasıdır (iOS). Gelir-gider takibi, bütçe planlama, borç/alacak takibi, varlık ve yatırım portföyü yönetimi ile enflasyona göre reel getiri hesaplaması sunar. Tüm veriler cihazda saklanır; hesap açmaya gerek yoktur, giriş PIN iledir.
+
+## Uygulama hakkında
+
+- **Ad:** Parametre
+- **Platform:** iOS (iPhone, iPad) — App Store
+- **Kategori:** Finans / Kişisel Bütçe
+- **Dil:** Türkçe (birincil), İngilizce
+- **Fiyat:** Ücretsiz (reklamlı) + isteğe bağlı Premium abonelik
+- **Gizlilik:** Veriler cihazda (yerel, şifreli) tutulur; hesap gerekmez, kimlik iCloud tabanlıdır
+- **App Store:** https://apps.apple.com/app/id6772718295
+
+## Öne çıkan özellikler
+
+- Gelir-gider ve bütçe takibi (aylık bütçe, kategori bazlı, tekrarlayan işlemler, bitiş tarihi ve tutar değişimi desteği)
+- Borç ve alacak takibi (kredi taksitleri, erken ödeme, canlı takip)
+- Varlık ve yatırım portföyü: mevduat, döviz, altın (gram/çeyrek/yarım/tam), hisse senedi
+- Enflasyona göre reel getiri hesabı (gerçek aylık TÜFE endeks değerleriyle, Fisher formülü)
+- Banka ekstresi (CSV) içe aktarma — mevcut hesaba ekleme dahil
+- Çoklu profil, ana para birimi seçimi, döviz çevirici
+- Finansal takvim, hedefler, net değer ve emeklilik planlama
+
+## Sık sorulanlar
+
+- **Parametre nedir?** Türkiye için kişisel finans ve bütçe uygulamasıdır. Ayrıntı: https://dilek0402.github.io/sss.html
+- **Ücretsiz mi?** Evet, temel özellikler ücretsizdir; Premium ile reklamsız kullanım ve sınırsız kayıt açılır.
+- **Verilerim güvende mi?** Veriler cihazda şifreli tutulur, hesap açılmaz. Gizlilik: https://dilek0402.github.io/gizlilik.html
+
+## Bloglar
+
+- Enflasyon ve reel getiri: https://dilek0402.github.io/blog/enflasyon-reel-getiri.html
+- Mevduat faizi nasıl hesaplanır: https://dilek0402.github.io/blog/mevduat-faizi-nasil-hesaplanir.html
+- Bütçe nasıl yapılır (50/30/20): https://dilek0402.github.io/blog/butce-nasil-yapilir-50-30-20.html
+- Altın mı döviz mi mevduat mı: https://dilek0402.github.io/blog/altin-mi-doviz-mi-mevduat-mi.html
+- KKDF ve BSMV nedir, kredi maliyeti: https://dilek0402.github.io/blog/kkdf-bsmv-nedir-kredi-maliyeti.html
