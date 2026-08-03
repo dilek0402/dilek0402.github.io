@@ -1,22 +1,25 @@
 <!doctype html>
-<html lang="en">
+<html lang="tr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>MD Preview — Fast Markdown Viewer & Editor for macOS & iOS</title>
+<title>MD Preview — macOS & iOS için Markdown Görüntüleyici ve Editör</title>
 
 <!-- SEO -->
-<meta name="description" content="MD Preview is a fast, elegant Markdown viewer and editor. Open .md files and read beautifully formatted documents instead of raw markup — with live split-screen editing, themes, syntax-highlighted code and PDF export. Fully offline.">
-<meta name="keywords" content="markdown viewer, markdown editor, md file viewer, open md file, markdown preview, readme viewer, markdown reader, mac markdown, ios markdown">
+<meta name="description" content="MD Preview, hızlı ve şık bir Markdown görüntüleyici ve editördür. .md dosyalarını ham metin yerine güzelce biçimli aç ve düzenle — canlı bölünmüş ekran, temalar, kod vurgusu ve PDF dışa aktarma. Tamamen çevrimdışı.">
+<meta name="keywords" content="markdown görüntüleyici, markdown editör, md dosyası açma, markdown önizleme, readme görüntüleyici, mac markdown, ios markdown, md okuyucu">
 <link rel="canonical" href="https://dilekeminoglu.github.io/mdpreview/">
 <meta name="robots" content="index, follow">
+<link rel="alternate" hreflang="tr" href="https://dilekeminoglu.github.io/mdpreview/">
+<link rel="alternate" hreflang="en" href="https://dilekeminoglu.github.io/mdpreview/en/">
+<link rel="alternate" hreflang="x-default" href="https://dilekeminoglu.github.io/mdpreview/">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="MD Preview — Markdown Viewer & Editor">
-<meta property="og:description" content="Open .md files and read them beautifully formatted, with live preview, themes and PDF export. Fully offline.">
+<meta property="og:title" content="MD Preview — Markdown Görüntüleyici ve Editör">
+<meta property="og:description" content=".md dosyalarını güzelce biçimli aç; canlı önizleme, temalar ve PDF dışa aktarma. Tamamen çevrimdışı.">
 <meta property="og:url" content="https://dilekeminoglu.github.io/mdpreview/">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="tr_TR">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="stylesheet" href="/assets/site.css">
@@ -26,22 +29,13 @@
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "MD Preview",
-  "operatingSystem": "macOS 14.6 or later, iOS",
+  "operatingSystem": "macOS 14.6 veya üzeri, iOS",
   "applicationCategory": "ProductivityApplication",
-  "description": "A fast, elegant Markdown viewer and editor. Open .md files and read beautifully formatted documents with live split-screen editing, reading themes, syntax-highlighted code and PDF export. Fully offline; documents never leave your device.",
+  "description": "Hızlı, şık bir Markdown görüntüleyici ve editör. .md dosyalarını canlı bölünmüş ekran düzenleme, okuma temaları, kod vurgusu ve PDF dışa aktarma ile güzelce biçimli göster. Tamamen çevrimdışı; belgeler cihazdan çıkmaz.",
   "url": "https://dilekeminoglu.github.io/mdpreview/",
-  "inLanguage": "en",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-  "author": { "@type": "Person", "name": "Dilek Eminoğlu" },
-  "featureList": [
-    "Beautifully formatted Markdown reading with Light, Dark and Sepia themes",
-    "Table of contents with reading time and progress",
-    "Live split-screen editor with instant preview",
-    "In-document search with match highlighting",
-    "Syntax-highlighted code blocks with one-tap copy",
-    "PDF export",
-    "Rich Markdown: tables, task lists, footnotes, emoji and more"
-  ]
+  "inLanguage": "tr",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "TRY" },
+  "author": { "@type": "Person", "name": "Dilek Eminoğlu" }
 }
 </script>
 <style>:root{ --accent:#0EA5E9; --accent2:#2563EB; --on-accent:#fff; }</style>
@@ -49,53 +43,59 @@
 <body>
 
 <div class="topbar"><div class="row">
-  <a class="brand" href="/en/"><span class="dot"></span>Dilek Eminoğlu</a>
-  <div class="langs"><a href="/en/">All apps</a></div>
+  <a class="brand" href="/"><span class="dot"></span>Dilek Eminoğlu</a>
+  <div class="langs"><a class="on" href="/mdpreview/">TR</a><a href="/mdpreview/en/">EN</a></div>
 </div></div>
 
 <header class="hero">
   <div class="logo">M↓</div>
-  <h1>Markdown, beautifully</h1>
-  <p class="lead">MD Preview opens your <strong>.md</strong> files and shows beautifully formatted documents instead of raw markup — with live editing, reading themes and PDF export. Everything stays <strong>offline</strong>.</p>
+  <h1>Markdown, en güzel haliyle</h1>
+  <p class="lead">MD Preview, <strong>.md</strong> dosyalarını ham metin yerine güzelce biçimli belgeler olarak açar — canlı düzenleme, okuma temaları ve PDF dışa aktarma ile. Her şey <strong>çevrimdışı</strong> kalır.</p>
   <div class="cta">
-    <a class="btn" href="https://apps.apple.com/app/id6790422676">Get it on the App Store</a>
+    <a class="btn" href="https://apps.apple.com/app/id6790422676">App Store'dan İndir</a>
   </div>
   <div class="nav" style="margin-top:24px">
-    <span class="badge">macOS 14.6+ · iPhone &amp; iPad</span>
+    <a href="#ozellikler">Özellikler</a>
+    <a href="/mdpreview/sss.html">SSS</a>
+    <a href="/mdpreview/blog/">Blog</a>
+    <a href="/mdpreview/gizlilik.html">Gizlilik</a>
   </div>
 </header>
 
 <main class="wrap">
-  <section id="features">
+  <section id="ozellikler">
     <div class="grid">
-      <div class="feat"><div class="ic">🎨</div><h3>Three Reading Themes</h3><p>Light, Dark and Sepia, with adjustable text size and a table of contents sidebar.</p></div>
-      <div class="feat"><div class="ic">✍️</div><h3>Live Editor</h3><p>Split-screen editing with instant preview; auto-refreshes when the file changes.</p></div>
-      <div class="feat"><div class="ic">💻</div><h3>Code Blocks</h3><p>Syntax-highlighted code with one-tap copy — perfect for READMEs and notes.</p></div>
-      <div class="feat"><div class="ic">🔎</div><h3>In-Document Search</h3><p>Find text fast with match highlighting; jump between headings and linked docs.</p></div>
-      <div class="feat"><div class="ic">📄</div><h3>PDF Export</h3><p>Turn any Markdown document into a clean, shareable PDF.</p></div>
-      <div class="feat"><div class="ic">🔒</div><h3>Fully Offline</h3><p>Your documents never leave your device — no accounts, no analytics, no tracking.</p></div>
+      <div class="feat"><div class="ic">🎨</div><h3>Üç Okuma Teması</h3><p>Açık, Koyu ve Sepia; ayarlanabilir yazı boyutu ve içindekiler kenar çubuğu.</p></div>
+      <div class="feat"><div class="ic">✍️</div><h3>Canlı Editör</h3><p>Bölünmüş ekranda anlık önizlemeyle düzenle; dosya değişince otomatik yenilenir.</p></div>
+      <div class="feat"><div class="ic">💻</div><h3>Kod Blokları</h3><p>Sözdizimi vurgulu kod, tek dokunuşla kopyalama — README ve notlar için ideal.</p></div>
+      <div class="feat"><div class="ic">🔎</div><h3>Belge İçi Arama</h3><p>Eşleşme vurgulamasıyla hızlı ara; başlıklar ve bağlı belgeler arasında atla.</p></div>
+      <div class="feat"><div class="ic">📄</div><h3>PDF Dışa Aktarma</h3><p>Herhangi bir Markdown belgesini temiz, paylaşılabilir bir PDF'e dönüştür.</p></div>
+      <div class="feat"><div class="ic">🔒</div><h3>Tamamen Çevrimdışı</h3><p>Belgelerin cihazından çıkmaz — hesap yok, analitik yok, takip yok.</p></div>
     </div>
   </section>
 
-  <h2 class="section-title">Why MD Preview?</h2>
-  <p class="section-sub">Made for people who live in Markdown</p>
+  <h2 class="section-title">Neden MD Preview?</h2>
+  <p class="section-sub">Markdown'la yaşayanlar için</p>
   <div class="tr">
     <ul>
-      <li>Rich Markdown: headings, tables with alignment, task lists, footnotes, highlight, emoji shortcodes and more</li>
-      <li>Remembers your reading position and reading progress</li>
-      <li>Open files from Files or Finder, or set MD Preview as your default Markdown app</li>
-      <li>Runs on Mac, iPhone and iPad</li>
-      <li>The only network use is loading remote images inside your documents</li>
+      <li>Zengin Markdown: başlıklar, hizalı tablolar, görev listeleri, dipnotlar, vurgulama, emoji kısaltmaları ve daha fazlası</li>
+      <li>Okuma konumunu ve ilerlemeni hatırlar</li>
+      <li>Dosyaları Dosyalar veya Finder'dan aç ya da MD Preview'i varsayılan Markdown uygulaman yap</li>
+      <li>Mac, iPhone ve iPad'de çalışır</li>
+      <li>İnternet yalnızca belge içindeki uzak görselleri yüklemek için kullanılır</li>
     </ul>
   </div>
 </main>
 
 <footer>
   <div class="nav">
-    <a href="/en/">All apps</a>
-    <a href="https://apps.apple.com/app/id6790422676">App Store</a>
+    <a href="/">Tüm uygulamalar</a>
+    <a href="/mdpreview/sss.html">SSS</a>
+    <a href="/mdpreview/blog/">Blog</a>
+    <a href="/mdpreview/gizlilik.html">Gizlilik</a>
+    <a href="/mdpreview/en/">English</a>
   </div>
-  © <span id="y"></span> MD Preview · Markdown viewer &amp; editor
+  © <span id="y"></span> MD Preview · Markdown görüntüleyici &amp; editör
   <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </footer>
 

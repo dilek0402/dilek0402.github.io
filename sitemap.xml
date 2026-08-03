@@ -7,94 +7,87 @@
     <loc>https://dilekeminoglu.github.io/</loc>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dilekeminoglu.github.io/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dilekeminoglu.github.io/en/"/>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <changefreq>weekly</changefreq><priority>1.0</priority>
   </url>
   <url>
     <loc>https://dilekeminoglu.github.io/en/</loc>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dilekeminoglu.github.io/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dilekeminoglu.github.io/en/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <changefreq>weekly</changefreq><priority>0.9</priority>
   </url>
 
-  <!-- Parametre -->
-  <url>
-    <loc>https://dilekeminoglu.github.io/parametre/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+  <!-- Parametre (TR) -->
+  <url><loc>https://dilekeminoglu.github.io/parametre/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/sss.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/gizlilik.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/blog/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/blog/enflasyon-reel-getiri.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/blog/mevduat-faizi-nasil-hesaplanir.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/blog/butce-nasil-yapilir-50-30-20.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/blog/altin-mi-doviz-mi-mevduat-mi.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/blog/kkdf-bsmv-nedir-kredi-maliyeti.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- Kutula / BoxKeeper -->
   <url>
     <loc>https://dilekeminoglu.github.io/kutula/</loc>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dilekeminoglu.github.io/kutula/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dilekeminoglu.github.io/kutula/en/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <changefreq>weekly</changefreq><priority>0.9</priority>
   </url>
   <url>
     <loc>https://dilekeminoglu.github.io/kutula/en/</loc>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dilekeminoglu.github.io/kutula/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dilekeminoglu.github.io/kutula/en/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>weekly</changefreq><priority>0.8</priority>
   </url>
+  <url><loc>https://dilekeminoglu.github.io/kutula/sss.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/kutula/gizlilik.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/kutula/en/faq.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/kutula/en/privacy.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/kutula/blog/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/kutula/blog/tasinma-esya-organizasyon.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/kutula/blog/depo-envanteri-nasil-tutulur.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- Clippa -->
   <url>
     <loc>https://dilekeminoglu.github.io/clippa/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dilekeminoglu.github.io/clippa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dilekeminoglu.github.io/clippa/en/"/>
+    <changefreq>weekly</changefreq><priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://dilekeminoglu.github.io/clippa/en/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dilekeminoglu.github.io/clippa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dilekeminoglu.github.io/clippa/en/"/>
+    <changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url><loc>https://dilekeminoglu.github.io/clippa/sss.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/clippa/gizlilik.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/clippa/en/faq.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/clippa/en/privacy.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/clippa/blog/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/clippa/blog/pano-yoneticisi-nedir.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/clippa/blog/mac-kopyala-yapistir-kisayollari.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- MD Preview -->
   <url>
     <loc>https://dilekeminoglu.github.io/mdpreview/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Parametre destek içeriği -->
-  <url>
-    <loc>https://dilekeminoglu.github.io/sss.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dilekeminoglu.github.io/mdpreview/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dilekeminoglu.github.io/mdpreview/en/"/>
+    <changefreq>weekly</changefreq><priority>0.9</priority>
   </url>
   <url>
-    <loc>https://dilekeminoglu.github.io/gizlilik.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <loc>https://dilekeminoglu.github.io/mdpreview/en/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dilekeminoglu.github.io/mdpreview/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dilekeminoglu.github.io/mdpreview/en/"/>
+    <changefreq>weekly</changefreq><priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://dilekeminoglu.github.io/blog/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dilekeminoglu.github.io/blog/enflasyon-reel-getiri.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dilekeminoglu.github.io/blog/mevduat-faizi-nasil-hesaplanir.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dilekeminoglu.github.io/blog/butce-nasil-yapilir-50-30-20.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dilekeminoglu.github.io/blog/altin-mi-doviz-mi-mevduat-mi.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dilekeminoglu.github.io/blog/kkdf-bsmv-nedir-kredi-maliyeti.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+  <url><loc>https://dilekeminoglu.github.io/mdpreview/sss.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/mdpreview/gizlilik.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/mdpreview/en/faq.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/mdpreview/en/privacy.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/mdpreview/blog/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/mdpreview/blog/markdown-nedir.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dilekeminoglu.github.io/mdpreview/blog/md-dosyasi-nasil-acilir.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
 </urlset>

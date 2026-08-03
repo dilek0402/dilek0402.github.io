@@ -64,3 +64,42 @@ footer{ text-align:center; padding:48px 20px 60px; color:var(--sub); font-size:1
 footer a{ color:var(--sub); }
 .nav{ display:flex; gap:18px; justify-content:center; flex-wrap:wrap; margin-bottom:16px; }
 .nav a{ color:var(--txt); text-decoration:none; font-weight:600; font-size:14.5px; }
+
+/* İç sayfa başlığı (SSS, gizlilik, blog) */
+.page-head{ padding:52px 20px 8px; text-align:center; }
+.page-head h1{ font-size:clamp(26px,4.5vw,38px); }
+.page-head .lead{ margin-top:12px; }
+.crumbs{ display:flex; gap:8px; justify-content:center; align-items:center; color:var(--sub); font-size:13px; margin-bottom:18px; flex-wrap:wrap; }
+.crumbs a{ color:var(--sub); text-decoration:none; font-weight:600; }
+.crumbs a:hover{ color:var(--txt); }
+
+/* SSS — details/summary akordeon */
+.faq{ max-width:760px; margin:24px auto 8px; }
+.faq details{ background:var(--card); border:1px solid var(--line); border-radius:14px; padding:2px 20px; margin:12px 0; }
+.faq summary{ cursor:pointer; list-style:none; padding:18px 0; font-weight:700; font-size:16.5px; display:flex; justify-content:space-between; align-items:center; gap:16px; }
+.faq summary::-webkit-details-marker{ display:none; }
+.faq summary::after{ content:"+"; color:var(--accent); font-weight:800; font-size:22px; line-height:1; flex:none; }
+.faq details[open] summary::after{ content:"–"; }
+.faq details p, .faq details ul{ color:var(--sub); font-size:15px; padding-bottom:18px; }
+.faq details ul{ padding-left:20px; }
+.faq details li{ margin:4px 0; }
+
+/* Prose — gizlilik & blog metni */
+.prose{ max-width:760px; margin:24px auto; color:var(--txt); }
+.prose h2{ font-size:22px; margin:34px 0 10px; letter-spacing:-.01em; }
+.prose h3{ font-size:18px; margin:24px 0 8px; }
+.prose p{ color:var(--sub); margin:12px 0; }
+.prose ul, .prose ol{ color:var(--sub); margin:12px 0; padding-left:22px; }
+.prose li{ margin:6px 0; }
+.prose strong{ color:var(--txt); }
+.prose a{ color:var(--accent); }
+.prose .muted{ font-size:13px; color:var(--sub); }
+.prose hr{ border:none; border-top:1px solid var(--line); margin:28px 0; }
+
+/* Blog liste */
+.posts{ max-width:760px; margin:24px auto; display:grid; gap:14px; }
+.post-card{ background:var(--card); border:1px solid var(--line); border-radius:16px; padding:22px 24px; text-decoration:none; color:inherit; display:block; transition:transform .15s ease, border-color .15s ease; }
+.post-card:hover{ transform:translateY(-2px); border-color:color-mix(in srgb, var(--txt) 22%, var(--line)); }
+.post-card h3{ font-size:18px; margin-bottom:6px; letter-spacing:-.01em; }
+.post-card p{ color:var(--sub); font-size:14.5px; }
+.post-card .go{ margin-top:12px; font-weight:700; font-size:14px; color:var(--accent); }

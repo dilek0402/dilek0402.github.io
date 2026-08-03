@@ -18,20 +18,23 @@
 - **App Store:** Yakında yayında.
 - **Ne yapar:** Taşınma ve depo için offline envanter. Eşyayı fotoğrafla, kutusuna ata, Türkçe akıllı (typo toleranslı) aramayla saniyede bul. Kutu taşıma (içindekiler otomatik güncellenir), QR etiket, Excel/CSV içe aktarma, taşınma ilerleme paneli, yedekleme (fotoğraflar dahil).
 - **Fiyat:** Ücretsiz. **Dil:** Türkçe, İngilizce. **Gizlilik:** Ağ çağrısı yok; envanter verisi cihazdan çıkmaz.
+- **SSS:** https://dilekeminoglu.github.io/kutula/sss.html · **Gizlilik:** https://dilekeminoglu.github.io/kutula/gizlilik.html · **Blog:** https://dilekeminoglu.github.io/kutula/blog/
 
 ## Clippa — Pano Yöneticisi (macOS)
 
-- **Sayfa:** https://dilekeminoglu.github.io/clippa/
+- **Sayfa:** https://dilekeminoglu.github.io/clippa/ (TR) · https://dilekeminoglu.github.io/clippa/en/ (EN)
 - **App Store:** https://apps.apple.com/app/id6786325136
 - **Ne yapar:** Menü çubuğunda yaşayan hızlı, klavye öncelikli pano (clipboard) yöneticisi. Kopyalanan metin, görsel ve dosyaları saklar; anlık arama (tam metin, fuzzy, regex), klavye kısayolları (⇧⌘C ile aç, ⌘1…⌘9 ile yapıştır), sabitleme.
-- **Fiyat:** ₺149,99. **Platform:** macOS 14.0+. **Dil:** İngilizce. **Gizlilik:** Bulut yok, hesap yok, takip yok; şifre yöneticisi içeriği otomatik filtrelenir.
+- **Fiyat:** ₺149,99. **Platform:** macOS 14.0+. **Uygulama dili:** İngilizce (site TR+EN). **Gizlilik:** Bulut yok, hesap yok, takip yok; şifre yöneticisi içeriği otomatik filtrelenir.
+- **SSS:** https://dilekeminoglu.github.io/clippa/sss.html · **Gizlilik:** https://dilekeminoglu.github.io/clippa/gizlilik.html · **Blog:** https://dilekeminoglu.github.io/clippa/blog/
 
 ## MD Preview — Markdown Görüntüleyici & Editör (macOS & iOS)
 
-- **Sayfa:** https://dilekeminoglu.github.io/mdpreview/
+- **Sayfa:** https://dilekeminoglu.github.io/mdpreview/ (TR) · https://dilekeminoglu.github.io/mdpreview/en/ (EN)
 - **App Store:** https://apps.apple.com/app/id6790422676
 - **Ne yapar:** Markdown (.md) dosyalarını ham metin yerine biçimli gösterir ve düzenler. Üç okuma teması (Açık/Koyu/Sepia), içindekiler, canlı bölünmüş ekran editör, belge içi arama, sözdizimi vurgulu kod blokları, PDF dışa aktarma.
-- **Fiyat:** Ücretsiz. **Platform:** macOS 14.6+, iPhone & iPad. **Dil:** İngilizce. **Gizlilik:** Tamamen çevrimdışı; belgeler cihazdan çıkmaz (tek istisna: belge içindeki uzak görseller).
+- **Fiyat:** Ücretsiz. **Platform:** macOS 14.6+, iPhone & iPad. **Uygulama dili:** İngilizce (site TR+EN). **Gizlilik:** Tamamen çevrimdışı; belgeler cihazdan çıkmaz (tek istisna: belge içindeki uzak görseller).
+- **SSS:** https://dilekeminoglu.github.io/mdpreview/sss.html · **Gizlilik:** https://dilekeminoglu.github.io/mdpreview/gizlilik.html · **Blog:** https://dilekeminoglu.github.io/mdpreview/blog/
 
 ## Parametre — destek içeriği
 
