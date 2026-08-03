@@ -1,37 +1,44 @@
-# Parametre
+# Dilek Eminoğlu — Uygulamalar
 
-> Parametre, Türkiye'deki bireysel kullanıcılar için tasarlanmış bir kişisel finans ve bütçe yönetimi uygulamasıdır (iOS). Gelir-gider takibi, bütçe planlama, borç/alacak takibi, varlık ve yatırım portföyü yönetimi ile enflasyona göre reel getiri hesaplaması sunar. Tüm veriler cihazda saklanır; hesap açmaya gerek yoktur, giriş PIN iledir.
+> Dilek Eminoğlu tarafından geliştirilen, gizlilik odaklı iOS ve macOS uygulamaları. Ortak ilke: veriler cihazda tutulur, kullanıcı takip edilmez, uygulamalar çevrimdışı çalışır. Dört uygulama: Parametre (kişisel finans, iOS), Kutula/BoxKeeper (eşya & kutu envanteri, iOS), Clippa (pano yöneticisi, macOS), MD Preview (Markdown görüntüleyici/editör, macOS & iOS).
+>
+> Ana sayfa: https://dilekeminoglu.github.io/ (TR) · https://dilekeminoglu.github.io/en/ (EN)
 
-## Uygulama hakkında
+## Parametre — Bütçe & Varlık Takibi (iOS)
 
-- **Ad:** Parametre
-- **Platform:** iOS (iPhone, iPad) — App Store
-- **Kategori:** Finans / Kişisel Bütçe
-- **Dil:** Türkçe (birincil), İngilizce
-- **Fiyat:** Ücretsiz (reklamlı) + isteğe bağlı Premium abonelik
-- **Gizlilik:** Veriler cihazda (yerel, şifreli) tutulur; hesap gerekmez, kimlik iCloud tabanlıdır
+- **Sayfa:** https://dilekeminoglu.github.io/parametre/
 - **App Store:** https://apps.apple.com/app/id6772718295
+- **Ne yapar:** Türkiye'ye özel kişisel finans uygulaması. Gelir-gider ve bütçe takibi, borç-alacak, varlık portföyü (altın, döviz, mevduat, hisse) canlı fiyatlarla, enflasyona göre reel getiri (resmi TÜFE/ÜFE), banka CSV içe aktarma, finansal hesap makineleri.
+- **Fiyat:** Ücretsiz (reklamlı) + isteğe bağlı Premium. **Dil:** Türkçe (birincil), İngilizce.
+- **Gizlilik:** Veriler cihazda; hesap gerekmez; uçtan uca şifreli iCloud yedekleme.
 
-## Öne çıkan özellikler
+## Kutula / BoxKeeper — Eşya & Kutu Takibi (iOS)
 
-- Gelir-gider ve bütçe takibi (aylık bütçe, kategori bazlı, tekrarlayan işlemler, bitiş tarihi ve tutar değişimi desteği)
-- Borç ve alacak takibi (kredi taksitleri, erken ödeme, canlı takip)
-- Varlık ve yatırım portföyü: mevduat, döviz, altın (gram/çeyrek/yarım/tam), hisse senedi
-- Enflasyona göre reel getiri hesabı (gerçek aylık TÜFE endeks değerleriyle, Fisher formülü)
-- Banka ekstresi (CSV) içe aktarma — mevcut hesaba ekleme dahil
-- Çoklu profil, ana para birimi seçimi, döviz çevirici
-- Finansal takvim, hedefler, net değer ve emeklilik planlama
+- **Sayfa:** https://dilekeminoglu.github.io/kutula/ (TR) · https://dilekeminoglu.github.io/kutula/en/ (EN)
+- **App Store:** Yakında yayında.
+- **Ne yapar:** Taşınma ve depo için offline envanter. Eşyayı fotoğrafla, kutusuna ata, Türkçe akıllı (typo toleranslı) aramayla saniyede bul. Kutu taşıma (içindekiler otomatik güncellenir), QR etiket, Excel/CSV içe aktarma, taşınma ilerleme paneli, yedekleme (fotoğraflar dahil).
+- **Fiyat:** Ücretsiz. **Dil:** Türkçe, İngilizce. **Gizlilik:** Ağ çağrısı yok; envanter verisi cihazdan çıkmaz.
 
-## Sık sorulanlar
+## Clippa — Pano Yöneticisi (macOS)
 
-- **Parametre nedir?** Türkiye için kişisel finans ve bütçe uygulamasıdır. Ayrıntı: https://dilek0402.github.io/sss.html
-- **Ücretsiz mi?** Evet, temel özellikler ücretsizdir; Premium ile reklamsız kullanım ve sınırsız kayıt açılır.
-- **Verilerim güvende mi?** Veriler cihazda şifreli tutulur, hesap açılmaz. Gizlilik: https://dilek0402.github.io/gizlilik.html
+- **Sayfa:** https://dilekeminoglu.github.io/clippa/
+- **App Store:** https://apps.apple.com/app/id6786325136
+- **Ne yapar:** Menü çubuğunda yaşayan hızlı, klavye öncelikli pano (clipboard) yöneticisi. Kopyalanan metin, görsel ve dosyaları saklar; anlık arama (tam metin, fuzzy, regex), klavye kısayolları (⇧⌘C ile aç, ⌘1…⌘9 ile yapıştır), sabitleme.
+- **Fiyat:** ₺149,99. **Platform:** macOS 14.0+. **Dil:** İngilizce. **Gizlilik:** Bulut yok, hesap yok, takip yok; şifre yöneticisi içeriği otomatik filtrelenir.
 
-## Bloglar
+## MD Preview — Markdown Görüntüleyici & Editör (macOS & iOS)
 
-- Enflasyon ve reel getiri: https://dilek0402.github.io/blog/enflasyon-reel-getiri.html
-- Mevduat faizi nasıl hesaplanır: https://dilek0402.github.io/blog/mevduat-faizi-nasil-hesaplanir.html
-- Bütçe nasıl yapılır (50/30/20): https://dilek0402.github.io/blog/butce-nasil-yapilir-50-30-20.html
-- Altın mı döviz mi mevduat mı: https://dilek0402.github.io/blog/altin-mi-doviz-mi-mevduat-mi.html
-- KKDF ve BSMV nedir, kredi maliyeti: https://dilek0402.github.io/blog/kkdf-bsmv-nedir-kredi-maliyeti.html
+- **Sayfa:** https://dilekeminoglu.github.io/mdpreview/
+- **App Store:** https://apps.apple.com/app/id6790422676
+- **Ne yapar:** Markdown (.md) dosyalarını ham metin yerine biçimli gösterir ve düzenler. Üç okuma teması (Açık/Koyu/Sepia), içindekiler, canlı bölünmüş ekran editör, belge içi arama, sözdizimi vurgulu kod blokları, PDF dışa aktarma.
+- **Fiyat:** Ücretsiz. **Platform:** macOS 14.6+, iPhone & iPad. **Dil:** İngilizce. **Gizlilik:** Tamamen çevrimdışı; belgeler cihazdan çıkmaz (tek istisna: belge içindeki uzak görseller).
+
+## Parametre — destek içeriği
+
+- SSS: https://dilekeminoglu.github.io/sss.html
+- Gizlilik & KVKK: https://dilekeminoglu.github.io/gizlilik.html
+- Blog — Enflasyon ve reel getiri: https://dilekeminoglu.github.io/blog/enflasyon-reel-getiri.html
+- Blog — Mevduat faizi nasıl hesaplanır: https://dilekeminoglu.github.io/blog/mevduat-faizi-nasil-hesaplanir.html
+- Blog — Bütçe nasıl yapılır (50/30/20): https://dilekeminoglu.github.io/blog/butce-nasil-yapilir-50-30-20.html
+- Blog — Altın mı döviz mi mevduat mı: https://dilekeminoglu.github.io/blog/altin-mi-doviz-mi-mevduat-mi.html
+- Blog — KKDF ve BSMV nedir, kredi maliyeti: https://dilekeminoglu.github.io/blog/kkdf-bsmv-nedir-kredi-maliyeti.html

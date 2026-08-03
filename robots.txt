@@ -1,4 +1,4 @@
-# Parametre — tüm arama ve AI tarayıcılarına açık
+# Dilek Eminoğlu uygulamaları — tüm arama ve AI tarayıcılarına açık
 User-agent: *
 Allow: /
 
@@ -24,4 +24,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://dilek0402.github.io/sitemap.xml
+Sitemap: https://dilekeminoglu.github.io/sitemap.xml

@@ -3,125 +3,123 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Parametre — Bütçe, Varlık ve Borç Takip Uygulaması</title>
+<title>Dilek Eminoğlu — Gizlilik Odaklı iOS & macOS Uygulamaları</title>
 
 <!-- SEO -->
-<meta name="description" content="Parametre ile bütçeni yönet; altın, döviz, mevduat ve hisse varlıklarını canlı fiyatlarla takip et; borç-alacaklarını düzenle. Enflasyona karşı gerçek getirini gör. Türkiye'ye özel, gizlilik odaklı iOS finans uygulaması.">
-<meta name="keywords" content="bütçe uygulaması, harcama takibi, para yönetimi, borç takip, altın döviz takip, mevduat faiz, enflasyon, kişisel finans, tasarruf, net değer">
-<link rel="canonical" href="https://dilek0402.github.io/">
+<meta name="description" content="Parametre, Kutula, Clippa ve MD Preview — verisi cihazında kalan, takipsiz iOS ve macOS uygulamaları. Bütçe takibi, eşya & kutu envanteri, pano yöneticisi ve Markdown görüntüleyici.">
+<meta name="keywords" content="Parametre, Kutula, Clippa, MD Preview, iOS uygulama, macOS uygulama, gizlilik odaklı, bütçe uygulaması, envanter, pano yöneticisi, markdown">
+<link rel="canonical" href="https://dilekeminoglu.github.io/">
 <meta name="robots" content="index, follow">
+<link rel="alternate" hreflang="tr" href="https://dilekeminoglu.github.io/">
+<link rel="alternate" hreflang="en" href="https://dilekeminoglu.github.io/en/">
+<link rel="alternate" hreflang="x-default" href="https://dilekeminoglu.github.io/">
 
-<!-- Open Graph / sosyal paylaşım -->
+<!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Parametre — Bütçe, Varlık ve Borç Takip">
-<meta property="og:description" content="Tüm paran tek ekranda: bütçe, altın/döviz/mevduat/hisse takibi, borç-alacak, enflasyon-düzeltmeli gerçek getiri.">
-<meta property="og:url" content="https://dilek0402.github.io/">
+<meta property="og:title" content="Dilek Eminoğlu — Gizlilik Odaklı Uygulamalar">
+<meta property="og:description" content="Verisi cihazında kalan iOS & macOS uygulamaları: Parametre, Kutula, Clippa, MD Preview.">
+<meta property="og:url" content="https://dilekeminoglu.github.io/">
 <meta property="og:locale" content="tr_TR">
 <meta name="twitter:card" content="summary_large_image">
 
-<!-- Yapısal veri: AI ve arama motorları için (GEO/SEO) -->
+<link rel="stylesheet" href="/assets/site.css">
+
+<!-- Yapısal veri -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "Parametre",
-  "operatingSystem": "iOS",
-  "applicationCategory": "FinanceApplication",
-  "description": "Türkiye'ye özel kişisel finans uygulaması: bütçe yönetimi, varlık takibi (altın, döviz, mevduat, hisse), borç-alacak takibi, enflasyon-düzeltmeli reel getiri, banka CSV içe aktarma ve finansal hesap makineleri.",
-  "url": "https://dilek0402.github.io/",
-  "inLanguage": ["tr", "en"],
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "TRY" },
-  "featureList": [
-    "Bütçe ve harcama takibi",
-    "Varlık takibi (altın, döviz, mevduat, hisse) canlı fiyatlarla",
-    "Borç ve alacak takibi, taksitli kredi ödeme takvimi",
-    "Enflasyon-düzeltmeli reel getiri (resmi TÜFE/ÜFE)",
-    "Banka ekstresi CSV içe aktarma (Enpara, Garanti, Akbank ve dahası)",
-    "Kredi, mevduat ve erken kapama hesap makineleri",
-    "Uçtan uca şifreli iCloud yedekleme"
+  "@type": "ItemList",
+  "name": "Dilek Eminoğlu uygulamaları",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "url": "https://dilekeminoglu.github.io/parametre/", "name": "Parametre — Bütçe & Varlık Takibi (iOS)" },
+    { "@type": "ListItem", "position": 2, "url": "https://dilekeminoglu.github.io/kutula/", "name": "Kutula — Eşya & Kutu Takibi (iOS)" },
+    { "@type": "ListItem", "position": 3, "url": "https://dilekeminoglu.github.io/clippa/", "name": "Clippa — Pano Yöneticisi (macOS)" },
+    { "@type": "ListItem", "position": 4, "url": "https://dilekeminoglu.github.io/mdpreview/", "name": "MD Preview — Markdown Görüntüleyici (macOS & iOS)" }
   ]
 }
 </script>
-
-<style>
-  :root{ --bg:#0B0F14; --card:#141A22; --txt:#F2F5F8; --sub:#9AA7B4; --accent:#10B981; --line:#1E2833; color-scheme: dark light; }
-  @media (prefers-color-scheme: light){ :root{ --bg:#F6F8FA; --card:#FFFFFF; --txt:#0B1620; --sub:#5A6B7B; --line:#E3E9EF; } }
-  *{ box-sizing:border-box; margin:0; padding:0; }
-  body{ font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,sans-serif; background:var(--bg); color:var(--txt); -webkit-font-smoothing:antialiased; }
-  .wrap{ max-width:960px; margin:0 auto; padding:0 20px; }
-  header{ text-align:center; padding:72px 20px 40px; }
-  .logo{ width:76px; height:76px; border-radius:18px; background:linear-gradient(135deg,#10B981,#0EA5E9); margin:0 auto 22px; display:flex; align-items:center; justify-content:center; font-size:38px; }
-  h1{ font-size:clamp(28px,5vw,44px); font-weight:800; letter-spacing:-.02em; margin-bottom:14px; }
-  .lead{ font-size:clamp(16px,2.4vw,20px); color:var(--sub); max-width:640px; margin:0 auto 30px; }
-  .btn{ display:inline-flex; align-items:center; gap:8px; background:var(--accent); color:#031A12; font-weight:700; padding:15px 28px; border-radius:14px; text-decoration:none; font-size:17px; }
-  .btn:active{ opacity:.85; }
-  .grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px; margin:44px 0; }
-  .feat{ background:var(--card); border:1px solid var(--line); border-radius:16px; padding:22px; }
-  .feat .ic{ font-size:26px; margin-bottom:10px; }
-  .feat h3{ font-size:17px; margin-bottom:6px; }
-  .feat p{ color:var(--sub); font-size:14.5px; }
-  .section-title{ text-align:center; font-size:clamp(22px,4vw,32px); font-weight:800; margin:56px 0 8px; }
-  .section-sub{ text-align:center; color:var(--sub); margin-bottom:8px; }
-  .tr{ background:var(--card); border:1px solid var(--line); border-radius:16px; padding:24px; margin:28px 0; }
-  .tr h3{ margin-bottom:10px; }
-  .tr ul{ list-style:none; }
-  .tr li{ padding:7px 0 7px 28px; position:relative; color:var(--sub); }
-  .tr li::before{ content:"✓"; position:absolute; left:0; color:var(--accent); font-weight:800; }
-  footer{ text-align:center; padding:48px 20px 60px; color:var(--sub); font-size:14px; border-top:1px solid var(--line); margin-top:56px; }
-  footer a{ color:var(--sub); }
-  .nav{ display:flex; gap:18px; justify-content:center; flex-wrap:wrap; margin-bottom:16px; }
-  .nav a{ color:var(--txt); text-decoration:none; font-weight:600; font-size:14.5px; }
-</style>
+<style>:root{ --accent:#6366F1; --accent2:#8B5CF6; --on-accent:#fff; }</style>
 </head>
 <body>
 
-<header>
-  <div class="logo">₺</div>
-  <h1>Tüm paran tek ekranda</h1>
-  <p class="lead">Parametre ile bütçeni yönet, altın–döviz–mevduat–hisse varlıklarını canlı fiyatlarla takip et, borç-alacaklarını düzenle. Enflasyona karşı <strong>gerçek getirini</strong> gör.</p>
-  <a class="btn" href="https://apps.apple.com/tr/app/id6772718295">App Store'dan Ücretsiz İndir</a>
-  <div class="nav" style="margin-top:28px">
-    <a href="#ozellikler">Özellikler</a>
-    <a href="sss.html">SSS</a>
-    <a href="blog/">Blog</a>
-    <a href="gizlilik.html">Gizlilik &amp; KVKK</a>
+<div class="topbar"><div class="row">
+  <a class="brand" href="/"><span class="dot"></span>Dilek Eminoğlu</a>
+  <div class="langs"><a class="on" href="/">TR</a><a href="/en/">EN</a></div>
+</div></div>
+
+<header class="hero">
+  <h1>Sade, gizliliğe saygılı uygulamalar</h1>
+  <p class="lead">Verilerin cihazında kalan, seni takip etmeyen iOS &amp; macOS uygulamaları. Her biri tek bir işi iyi yapmak için tasarlandı.</p>
+  <div class="cta">
+    <a class="btn" href="#uygulamalar">Uygulamaları Gör</a>
   </div>
 </header>
 
 <main class="wrap">
-  <section id="ozellikler">
-    <div class="grid">
-      <div class="feat"><div class="ic">📊</div><h3>Bütçe &amp; Harcama</h3><p>Kategorilerle aylık bütçe, gerçek-zamanlı gider takibi ve trendler.</p></div>
-      <div class="feat"><div class="ic">🏦</div><h3>Varlık Takibi</h3><p>Altın, döviz, mevduat, hisse ve kripto — otomatik güncel değerle.</p></div>
-      <div class="feat"><div class="ic">💳</div><h3>Borç &amp; Alacak</h3><p>Taksitli krediler, ödeme takvimi, KKDF/BSMV dahil gerçek maliyet.</p></div>
-      <div class="feat"><div class="ic">🌡️</div><h3>Enflasyon-Düzeltmeli Getiri</h3><p>Resmi TÜFE/ÜFE ile paranın reel (alım gücü) kazancını gör.</p></div>
-      <div class="feat"><div class="ic">📥</div><h3>Banka CSV İçe Aktarma</h3><p>Enpara, Garanti, Akbank ve daha fazlası — hareketlerini tek dokunuşla al.</p></div>
-      <div class="feat"><div class="ic">🔒</div><h3>Gizlilik Önce</h3><p>Verilerin cihazında. Uçtan uca şifreli iCloud yedekleme; sunucumuza gitmez.</p></div>
+  <section id="uygulamalar">
+    <div class="apps">
+
+      <a class="app" href="/parametre/">
+        <div class="top">
+          <div class="ic" style="background:linear-gradient(135deg,#10B981,#0EA5E9)">₺</div>
+          <div><h3>Parametre</h3><div class="plat">iOS · Ücretsiz</div></div>
+        </div>
+        <p>Bütçe, varlık (altın–döviz–mevduat–hisse) ve borç takibi. Enflasyona karşı gerçek getirini gör. Türkiye'ye özel.</p>
+        <span class="go">Detay →</span>
+      </a>
+
+      <a class="app" href="/kutula/">
+        <div class="top">
+          <div class="ic" style="background:linear-gradient(135deg,#C86B3C,#E0A458)">📦</div>
+          <div><h3>Kutula</h3><div class="plat">iOS · Ücretsiz</div></div>
+        </div>
+        <p>Hangi eşya hangi kutuda? Fotoğrafla, kutusuna ata, saniyede bul. Taşınma ve depo için tamamen internetsiz envanter.</p>
+        <span class="go">Detay →</span>
+      </a>
+
+      <a class="app" href="/clippa/">
+        <div class="top">
+          <div class="ic" style="background:linear-gradient(135deg,#6D5EF6,#4F46E5)">📋</div>
+          <div><h3>Clippa</h3><div class="plat">macOS</div></div>
+        </div>
+        <p>Menü çubuğunda yaşayan hızlı pano yöneticisi. Kopyaladığın her şeyi hatırlar; anında ara ve yapıştır. Bulut yok, hesap yok.</p>
+        <span class="go">Detay →</span>
+      </a>
+
+      <a class="app" href="/mdpreview/">
+        <div class="top">
+          <div class="ic" style="background:linear-gradient(135deg,#0EA5E9,#2563EB)">M↓</div>
+          <div><h3>MD Preview</h3><div class="plat">macOS &amp; iOS · Ücretsiz</div></div>
+        </div>
+        <p>Markdown dosyalarını ham metin yerine güzelce biçimli oku ve düzenle. Canlı önizleme, temalar, PDF dışa aktarma — tamamen çevrimdışı.</p>
+        <span class="go">Detay →</span>
+      </a>
+
     </div>
   </section>
 
-  <h2 class="section-title">Neden Parametre?</h2>
-  <p class="section-sub">Türkiye'ye özel tasarlandı</p>
+  <h2 class="section-title">Ortak nokta: gizlilik</h2>
+  <p class="section-sub">Farklı işler, aynı ilke</p>
   <div class="tr">
     <ul>
-      <li>TCMB günlük döviz ve altın fiyatları — geçmiş tarihli kayıtlar da doğru değerlenir</li>
-      <li>Gerçek enflasyon hesabı (ortalama değil, açıklanan TÜFE/ÜFE)</li>
-      <li>KKDF + BSMV kredi vergileriyle gerçek kredi maliyeti</li>
-      <li>Değişken taksitli borç desteği + ödeme takvimi</li>
-      <li>iPad düzeni, ana ekran widget'ı ve Canlı Aktivite</li>
-      <li>Reklamsız Premium seçeneği</li>
+      <li>Verilerin cihazında kalır — kişisel veriler sunucuya gönderilmez</li>
+      <li>Hesap açmak yok, takip yok, analytics yok</li>
+      <li>Çevrimdışı çalışır; internet yalnızca gerektiğinde (ör. canlı fiyat)</li>
+      <li>Sade, hızlı ve tek işi iyi yapan arayüzler</li>
+      <li>Türkiye'de bağımsız olarak geliştirildi</li>
     </ul>
   </div>
 </main>
 
 <footer>
   <div class="nav">
-    <a href="sss.html">SSS</a>
-    <a href="blog/">Blog</a>
-    <a href="gizlilik.html">Gizlilik Politikası &amp; KVKK</a>
-    <a href="https://apps.apple.com/tr/app/id6772718295">App Store</a>
+    <a href="/parametre/">Parametre</a>
+    <a href="/kutula/">Kutula</a>
+    <a href="/clippa/">Clippa</a>
+    <a href="/mdpreview/">MD Preview</a>
+    <a href="/en/">English</a>
   </div>
-  © <span id="y"></span> Parametre · iOS için kişisel finans uygulaması
+  © <span id="y"></span> Dilek Eminoğlu · iOS &amp; macOS uygulamaları
   <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </footer>
 
