@@ -103,3 +103,17 @@ footer a{ color:var(--sub); }
 .post-card h3{ font-size:18px; margin-bottom:6px; letter-spacing:-.01em; }
 .post-card p{ color:var(--sub); font-size:14.5px; }
 .post-card .go{ margin-top:12px; font-weight:700; font-size:14px; color:var(--accent); }
+
+/* Gerçek app ikonları (emoji yerine) */
+.logo{ overflow:hidden; }
+.logo img{ width:100%; height:100%; object-fit:cover; display:block; }
+.app .ic{ overflow:hidden; }
+.app .ic img{ width:100%; height:100%; object-fit:cover; display:block; }
+
+/* İki dilli sayfa (TR/EN aynı sayfada, geçiş düğmesiyle) */
+body.bilingual [data-lang]{ display:none; }
+html[lang="tr"] body.bilingual [data-lang="tr"]{ display:revert; }
+html[lang="en"] body.bilingual [data-lang="en"]{ display:revert; }
+.langtoggle{ display:flex; gap:6px; }
+.langtoggle button{ font:inherit; font-size:13px; font-weight:600; cursor:pointer; padding:6px 13px; border-radius:999px; border:1px solid var(--line); background:var(--card); color:var(--sub); }
+.langtoggle button[aria-pressed="true"]{ background:var(--accent); color:var(--on-accent); border-color:transparent; }

@@ -3,59 +3,106 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>MD Preview — Gizlilik Politikası</title>
+<title>MD Preview — Gizlilik Politikası / Privacy Policy</title>
 
-<meta name="description" content="MD Preview gizlilik politikası: belgelerin cihazında işlenir ve cihazdan çıkmaz. Hesap yok, analitik yok, takip yok. Tek istisna: belge içindeki uzak görseller.">
+<meta name="description" content="MD Preview gizlilik politikası — Türkçe ve İngilizce. Belgelerin cihazında işlenir ve cihazdan çıkmaz. Hesap yok, analitik yok, takip yok.">
 <link rel="canonical" href="https://dilekeminoglu.github.io/mdpreview/gizlilik.html">
 <meta name="robots" content="index, follow">
+<link rel="alternate" hreflang="tr" href="https://dilekeminoglu.github.io/mdpreview/gizlilik.html">
+<link rel="alternate" hreflang="en" href="https://dilekeminoglu.github.io/mdpreview/en/privacy.html">
 <meta property="og:type" content="website">
-<meta property="og:title" content="MD Preview — Gizlilik Politikası">
+<meta property="og:title" content="MD Preview — Gizlilik Politikası / Privacy Policy">
 <meta property="og:url" content="https://dilekeminoglu.github.io/mdpreview/gizlilik.html">
-<meta property="og:locale" content="tr_TR">
 
 <link rel="stylesheet" href="/assets/site.css">
 <style>:root{ --accent:#0EA5E9; --accent2:#2563EB; --on-accent:#fff; }</style>
 </head>
-<body>
+<body class="bilingual">
 
 <div class="topbar"><div class="row">
   <a class="brand" href="/"><span class="dot"></span>Dilek Eminoğlu</a>
-  <div class="langs"><a class="on" href="/mdpreview/gizlilik.html">TR</a><a href="/mdpreview/en/privacy.html">EN</a></div>
+  <div class="langtoggle" role="group" aria-label="Dil / Language">
+    <button type="button" id="btn-tr" aria-pressed="true" onclick="setLang('tr')">TR</button>
+    <button type="button" id="btn-en" aria-pressed="false" onclick="setLang('en')">EN</button>
+  </div>
 </div></div>
 
 <header class="page-head">
-  <div class="crumbs"><a href="/">Ana sayfa</a> › <a href="/mdpreview/">MD Preview</a> › <span>Gizlilik</span></div>
-  <h1>Gizlilik Politikası</h1>
-  <p class="lead">MD Preview belgelerini cihazında tutar.</p>
+  <div class="crumbs">
+    <a href="/mdpreview/">MD Preview</a> ›
+    <span data-lang="tr">Gizlilik</span><span data-lang="en">Privacy</span>
+  </div>
+  <h1><span data-lang="tr">Gizlilik Politikası</span><span data-lang="en">Privacy Policy</span></h1>
+  <p class="lead">MD Preview · macOS &amp; iOS</p>
 </header>
 
 <main class="wrap">
   <div class="prose">
-    <p class="muted">Son güncelleme: 3 Ağustos 2026</p>
 
-    <h2>Özet</h2>
-    <p>MD Preview, Markdown belgelerini görüntülemen ve düzenlemen için bir uygulamadır. <strong>Belgelerin cihazında işlenir ve cihazdan çıkmaz.</strong> Hesap açman gerekmez, seni tanımlayan hiçbir veri toplanmaz.</p>
+    <!-- ==================== TÜRKÇE ==================== -->
+    <div data-lang="tr">
+      <p class="muted">Son güncelleme: 3 Ağustos 2026</p>
 
-    <h2>Topladığımız veriler</h2>
-    <p>MD Preview <strong>kişisel veri toplamaz.</strong> Açtığın ya da düzenlediğin belgeler bize veya üçüncü taraflara gönderilmez.</p>
+      <h2>Özet</h2>
+      <p>MD Preview, Markdown belgelerini görüntülemen ve düzenlemen için bir uygulamadır. <strong>Belgelerin cihazında işlenir ve cihazdan çıkmaz.</strong> Hesap açman gerekmez, seni tanımlayan hiçbir veri toplanmaz.</p>
 
-    <h2>İnternet kullanımı</h2>
-    <p>Uygulama temelde çevrimdışıdır. <strong>Tek internet kullanımı,</strong> bir belgenin içinde uzak bir görsele (ör. <code>https://…/resim.png</code>) bağlantı varsa o görseli göstermek için yüklemektir. Belge yalnızca yerel içerik barındırıyorsa hiçbir ağ isteği yapılmaz.</p>
+      <h2>1. Sorumlu / İletişim</h2>
+      <p>Bu politika, MD Preview uygulamasının geliştiricisi tarafından sağlanır. Sorularınız için: <a href="mailto:contact.mdpreview.apps@gmail.com">contact.mdpreview.apps@gmail.com</a></p>
 
-    <h2>Analitik ve takip</h2>
-    <p>Uygulama içi davranışını izleyen bir analitik aracı ya da üçüncü taraf takip SDK'sı kullanmıyoruz. Reklam yoktur.</p>
+      <h2>2. Topladığımız veriler</h2>
+      <p>MD Preview <strong>kişisel veri toplamaz.</strong> Açtığın ya da düzenlediğin belgeler bize veya üçüncü taraflara gönderilmez.</p>
 
-    <h2>Dosya erişimi</h2>
-    <p>Uygulama yalnızca senin açmayı seçtiğin dosyalara erişir. Dosyaların içeriği cihazında kalır.</p>
+      <h2>3. İnternet kullanımı</h2>
+      <p>Uygulama temelde çevrimdışıdır. <strong>Tek internet kullanımı,</strong> bir belgenin içinde uzak bir görsele (ör. <code>https://…/resim.png</code>) bağlantı varsa o görseli göstermek için yüklemektir. Belge yalnızca yerel içerik barındırıyorsa hiçbir ağ isteği yapılmaz.</p>
 
-    <h2>Veri paylaşımı</h2>
-    <p>Belgelerini kimseyle paylaşmaz, satmaz veya kiralamayız.</p>
+      <h2>4. Analitik ve takip</h2>
+      <p>Uygulama içi davranışını izleyen bir analitik aracı ya da üçüncü taraf takip SDK'sı kullanmıyoruz. Reklam yoktur.</p>
 
-    <h2>Değişiklikler</h2>
-    <p>Bu politika güncellenebilir; önemli değişikliklerde bu sayfadaki tarihi güncelleriz.</p>
+      <h2>5. Dosya erişimi</h2>
+      <p>Uygulama yalnızca senin açmayı seçtiğin dosyalara erişir. Dosyaların içeriği cihazında kalır.</p>
 
-    <h2>İletişim</h2>
-    <p>Soruların için: <a href="mailto:kaaneminoglu2@gmail.com">kaaneminoglu2@gmail.com</a></p>
+      <h2>6. Veri paylaşımı</h2>
+      <p>Belgelerini kimseyle paylaşmaz, satmaz veya kiralamayız.</p>
+
+      <h2>7. Bu politikadaki değişiklikler</h2>
+      <p>Bu politika güncellenebilir; önemli değişikliklerde bu sayfadaki tarihi güncelleriz.</p>
+
+      <h2>8. İletişim</h2>
+      <p>Soruların için: <a href="mailto:contact.mdpreview.apps@gmail.com">contact.mdpreview.apps@gmail.com</a></p>
+    </div>
+
+    <!-- ==================== ENGLISH ==================== -->
+    <div data-lang="en">
+      <p class="muted">Last updated: 3 August 2026</p>
+
+      <h2>Summary</h2>
+      <p>MD Preview is an app for viewing and editing Markdown documents. <strong>Your documents are processed on your device and never leave it.</strong> No account is required, and no data that identifies you is collected.</p>
+
+      <h2>1. Who we are / Contact</h2>
+      <p>This policy is provided by the developer of the MD Preview app. Questions: <a href="mailto:contact.mdpreview.apps@gmail.com">contact.mdpreview.apps@gmail.com</a></p>
+
+      <h2>2. Data we collect</h2>
+      <p>MD Preview <strong>collects no personal data.</strong> The documents you open or edit are not sent to us or to any third party.</p>
+
+      <h2>3. Internet use</h2>
+      <p>The app is offline by default. The <strong>only internet use</strong> is loading a remote image (e.g. <code>https://…/image.png</code>) when a document references one. If a document contains only local content, no network request is made.</p>
+
+      <h2>4. Analytics and tracking</h2>
+      <p>We do not use in-app analytics or any third-party tracking SDK. There are no ads.</p>
+
+      <h2>5. File access</h2>
+      <p>The app only accesses the files you choose to open. Your file contents stay on your device.</p>
+
+      <h2>6. Data sharing</h2>
+      <p>We never share, sell or rent your documents.</p>
+
+      <h2>7. Changes to this policy</h2>
+      <p>This policy may be updated; we will update the date on this page for material changes.</p>
+
+      <h2>8. Contact</h2>
+      <p>Questions? <a href="mailto:contact.mdpreview.apps@gmail.com">contact.mdpreview.apps@gmail.com</a></p>
+    </div>
+
   </div>
 </main>
 
@@ -65,11 +112,24 @@
     <a href="/mdpreview/sss.html">SSS</a>
     <a href="/mdpreview/blog/">Blog</a>
     <a href="/">Tüm uygulamalar</a>
-    <a href="/mdpreview/en/privacy.html">English</a>
   </div>
   © <span id="y"></span> MD Preview · Markdown görüntüleyici &amp; editör
   <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </footer>
+
+<script>
+  function setLang(l){
+    document.documentElement.lang = l;
+    document.getElementById('btn-tr').setAttribute('aria-pressed', l==='tr');
+    document.getElementById('btn-en').setAttribute('aria-pressed', l==='en');
+    try{ history.replaceState(null,'', l==='en' ? '#en' : '#tr'); }catch(e){}
+  }
+  (function(){
+    var h = (location.hash||'').replace('#','').toLowerCase();
+    if(h==='en'||h==='tr'){ setLang(h); }
+    else { setLang(document.documentElement.lang || 'tr'); }
+  })();
+</script>
 
 </body>
 </html>
